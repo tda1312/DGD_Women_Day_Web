@@ -27,7 +27,8 @@
     <!-- Bootstrap core CSS -->
 
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /><link href="./css/bootstrap-theme.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,14 +48,7 @@
     <script src="https://kit.fontawesome.com/3b9f286cf2.js"></script>
     
     <style type="text/css">
-        .resize {
-            width: 350px;
-            height: 350px;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-
+        
         :root {
             --shadow-color: #FF9E9E;
             --shadow-color-light: purple;
@@ -182,7 +176,7 @@
             <nav id="nav_bar" class="navbar navbar-expand-xl bg-white navbar-light">
                 
                   <a href="./index.html" class="header-title">
-                    <div class="heart mr-3 mt-3" style="float:left"></div><h3>DGD International Women's Day</h3>
+                    <div class="heart mr-3 mt-3" style="float:left"></div><h3 class="h3-resize">DGD International Women's Day</h3>
                     <!-- <img src="./images/dgdwomenday.png" alt="International Women's Day" class="d-none d-lg-block d-xl-block" /> -->
                     <!-- <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/InternationalWomensDay-logoIWD.png" alt="International Women's Day" class="d-block d-lg-none g-xl-none" /> -->
                   </a>
@@ -212,7 +206,7 @@
         
 
     <div class="home-image">
-		<div class="trans jumbotron">
+		<div class="trans jumbotron resize-background">
                 <div class="row home-jumb">
                     <div class="col-sm-12 text-center">
                         <div class="d-block d-sm-none">
@@ -228,15 +222,16 @@
         </div>
     </div>
     
-    <div class="container">    
-        
+    <div class="container">
 
         <div class="row">
             <div class="col-12 col-sm-10 offset-sm-1 text-center">
-                <p class="home">A challenged world is an alert world and from challenge comes change.<br />
-                    So let's all choose to challenge.</p>
-                <p class="home">How will you help forge a gender equal world?<br />
-                    Celebrate women's achievement. Raise awareness against bias. Take action for equality.</p>
+                <p class="home">Một phải xinh đẹp dịu dàng<br />
+                    Hai mặc váy vóc nhẹ nhàng hương hoa.</p>
+                <p class="home">Ba đem trang điểm từ nhà<br />
+                    Bốn lên sân khấu nhận quà anh em.</p>
+                <p class="home">Năm khoe thiên hạ mà xem<br />
+                    Quản trị dữ liệu nhà em mê lì.</p>
             </div>
         </div>
     </div>
@@ -250,8 +245,7 @@
 
         <div class="row mt-5">
             <div class="col-12 col-sm-10 offset-sm-1 text-center">
-                <p class="home">IWD sees a number of <a href="/IWDMission"><b>MISSIONS</b></a> to help forge a gender equal world.<br />
-                    Celebrating women's achievements and increasing visibility, while calling out inequality, is key.</p>
+                <p class="home" style="font-size:x-large">Thay mặt cho phái mạnh của Ban Quản trị Dữ liệu, chúng tôi xin gửi tới chị em lời chúc mừng mùng 08 tháng 03 tốt đẹp nhất. Chúc cho các chị em luôn mạnh khỏe, tươi vui, xinh đẹp. Chị em luôn là những người phụ nữ đẹp nhất trong trái tim chúng tôi. Happy Women's Day!</p>
             </div>
         </div>
 
@@ -265,7 +259,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Tech" title="Women & Tech" src="./images/DGD_ThoaNT2.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-title font-weight-bold">Nguyễn Thị Thoa - ThoaNT2</p>
+                        <p class="card-title font-weight-bold resize-text">Nguyễn Thị Thoa - ThoaNT2</p>
                     </div>
                 </div>
             </div>
@@ -276,7 +270,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Sport" title="Women & Sport" src="./images/DGD_LinhNTT52.jpeg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">Nguyễn Thị Thùy Linh - LinhNTT52</p>
+                        <p class="card-text font-weight-bold resize-text">Nguyễn Thị Thùy Linh - LinhNTT52</p>
                     </div>
                 </div>
             </div>
@@ -287,7 +281,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women's Health" title="Women's Health" src="./images/DGD_LienNT21.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">Nguyễn Thị Liên - LienNT21</p>
+                        <p class="card-text font-weight-bold resize-text">Nguyễn Thị Liên - LienNT21</p>
                     </div>
                 </div>
             </div>
@@ -305,7 +299,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Work" title="Women & Work" src="./images/DGD_TienNM25.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-title font-weight-bold">Nguyễn Mai Tiên - TienNM25</p>
+                        <p class="card-title font-weight-bold resize-text">Nguyễn Mai Tiên - TienNM25</p>
                     </div>
                 </div>
             </div>
@@ -316,7 +310,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Creatives" title="Women Creatives" src="./images/DGD_ThuPP.jpeg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">​Phạm Phương Thư - ThuPP</p>
+                        <p class="card-text font-weight-bold resize-text">​Phạm Phương Thư - ThuPP</p>
                     </div>
                 </div>
             </div>
@@ -327,7 +321,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Empowerment" title="Women Empowerment" src="./images/DGD_LyLK.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">Lương Khánh Ly - LyLK</p>
+                        <p class="card-text font-weight-bold resize-text">Lương Khánh Ly - LyLK</p>
                     </div>
                 </div>
             </div>
@@ -344,7 +338,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Creatives" title="Women Creatives" src="./images/DGD_LinhNTN11.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">​Nguyễn Thị Nhật Linh - LinhNTN11</p>
+                        <p class="card-text font-weight-bold resize-text">​Nguyễn Thị Nhật Linh - LinhNTN11</p>
                     </div>
                 </div>
             </div>
@@ -355,7 +349,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Work" title="Women & Work" src="./images/DGD_Linhdk.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-title font-weight-bold">Đỗ Khánh Linh - LinhDK7</p>
+                        <p class="card-title font-weight-bold resize-text">Đỗ Khánh Linh - LinhDK7</p>
                     </div>
                 </div>
             </div>
@@ -366,7 +360,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Empowerment" title="Women Empowerment" src="./images/DGD_PhuongTTL.jpeg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">Trần Thị Lan Phương - PhuongTTL2</p>
+                        <p class="card-text font-weight-bold resize-text">Trần Thị Lan Phương - PhuongTTL2</p>
                     </div>
                 </div>
             </div>
@@ -383,7 +377,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Work" title="Women & Work" src="./images/DGD_HuongNTT7.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-title font-weight-bold">Nguyễn Thị Thu Hương - HuongNTT7</p>
+                        <p class="card-title font-weight-bold resize-text">Nguyễn Thị Thu Hương - HuongNTT7</p>
                     </div>
                 </div>
             </div>
@@ -394,7 +388,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Empowerment" title="Women Empowerment" src="./images/DGD_PhuongUK.jpeg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">Ứng Kim Phượng - PhuongUK</p>
+                        <p class="card-text font-weight-bold resize-text">Ứng Kim Phượng - PhuongUK</p>
                     </div>
                 </div>
             </div>
@@ -405,7 +399,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Creatives" title="Women Creatives" src="./images/DGD_PhucPM.JPG" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">​Phạm Minh Phúc - PhucPM</p>
+                        <p class="card-text font-weight-bold resize-text">​Phạm Minh Phúc - PhucPM</p>
                     </div>
                 </div>
             </div>
@@ -422,7 +416,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Work" title="Women & Work" src="./images/DGD_AnhNTN53.jpeg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-title font-weight-bold">Nguyễn Thị Ngọc Anh - AnhNTN53</p>
+                        <p class="card-title font-weight-bold resize-text">Nguyễn Thị Ngọc Anh - AnhNTN53</p>
                     </div>
                 </div>
             </div>
@@ -433,7 +427,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Empowerment" title="Women Empowerment" src="./images/DGD_AnhNTN58.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">Nguyễn Thị Ngọc Ánh - AnhNTN58</p>
+                        <p class="card-text font-weight-bold resize-text">Nguyễn Thị Ngọc Ánh - AnhNTN58</p>
                     </div>
                 </div>
             </div>
@@ -444,7 +438,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Creatives" title="Women Creatives" src="./images/DGD_HuyenNT156.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">​Nguyễn Thuy Huyền - HuyenNT156</p>
+                        <p class="card-text font-weight-bold resize-text">​Nguyễn Thuy Huyền - HuyenNT156</p>
                     </div>
                 </div>
             </div>
@@ -461,7 +455,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Work" title="Women & Work" src="./images/DGD_GiangPTH.jpeg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-title font-weight-bold">Phan Thị Hương Giang - GiangPTH</p>
+                        <p class="card-title font-weight-bold resize-text">Phan Thị Hương Giang - GiangPTH</p>
                     </div>
                 </div>
             </div>
@@ -472,7 +466,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Empowerment" title="Women Empowerment" src="./images/DGD_LaNT1.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">Ngô Thị Là - LaNT1</p>
+                        <p class="card-text font-weight-bold resize-text">Ngô Thị Là - LaNT1</p>
                     </div>
                 </div>
             </div>
@@ -483,7 +477,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Creatives" title="Women Creatives" src="./images/DGD_NhungKT.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">​Kiều Thị Nhung - NhungKT</p>
+                        <p class="card-text font-weight-bold resize-text">​Kiều Thị Nhung - NhungKT</p>
                     </div>
                 </div>
             </div>
@@ -500,7 +494,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Work" title="Women & Work" src="./images/DGD_HanhPN7.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-title font-weight-bold">Phạm Nguyên Hạnh - HanhPN7</p>
+                        <p class="card-title font-weight-bold resize-text">Phạm Nguyên Hạnh - HanhPN7</p>
                     </div>
                 </div>
             </div>
@@ -511,7 +505,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Creatives" title="Women Creatives" src="./images/DGD_AnhLTL.jpg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">​Lê Thị Lan Anh - AnhLTL</p>
+                        <p class="card-text font-weight-bold resize-text">​Lê Thị Lan Anh - AnhLTL</p>
                     </div>
                 </div>
             </div>
@@ -522,7 +516,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women Empowerment" title="Women Empowerment" src="./images/DGD_HanhLTH8.jpeg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text font-weight-bold">Lê Thị Hồng Hạnh - HanhLTH8</p>
+                        <p class="card-text font-weight-bold resize-text">Lê Thị Hồng Hạnh - HanhLTH8</p>
                     </div>
                 </div>
             </div>
@@ -547,7 +541,7 @@
                         <img class="img-fluid mx-auto d-block" alt="Women & Work" title="Women & Work" src="./images/DGD_HaTTT36.jpeg" />
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-title font-weight-bold">Trần Thị Thu Hà - HaTTT36</p>
+                        <p class="card-title font-weight-bold resize-text">Trần Thị Thu Hà - HaTTT36</p>
                     </div>
                 </div>
             </div>
@@ -568,30 +562,15 @@
         <div class="row">
             <div class="col-12"><hr /></div>
         </div>
-        <div class="row my-5">
-            <div class="col-12"><h2 style="color:#666666;">International Women's Day 2021 Partners</h2></div>
-        </div>
-        <div class="row row-logo">
-            <div class="col-sm-3 offset-sm-3"><a href="/HCL"><img src="https://internationalwomensday.s3-us-west-2.amazonaws.com/images/IWD-HCL-WOMEN.png" alt="HCL supports International Women's Day" class="img-fluid mx-auto d-block" /></a></div>
-            
-            
-            
-            
-           
-            <div class="col-sm-3"><a href="/Medtronic"><img src="https://internationalwomensday.s3-us-west-2.amazonaws.com/images/IWD-MEDTRONIC-WOMEN.png" alt="Medtronic supports International Women's Day" class="img-fluid mx-auto d-block" /></a></div>
-        </div>
-        
-        
-
         <div class="row my-4">
-            <div class="col-12"><h2 style="color:#666666;">International Women's Day Charity Partners</h2></div>
+            <div class="col-12"><h2 style="color:#666666;">DGDMen - Always by your side</h2></div>
         </div>
         <div class="row row-logo">
             <div class="col-sm-2 offset-sm-4">
-                <a href="/WAGGGS"><img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/wagggs/wagggs-logo.png" alt="WAGGGS supports International Women's Day" class="img-fluid mx-auto d-block" /></a>
+                <img src="./icons/viettel.png" alt="Viettel supports DGD International Women's Day" class="img-fluid mx-auto d-block" />
             </div>
             <div class="col-sm-2">
-                <a href="/Catalyst"><img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/catalyst/Catalyst-women.png" alt="Catalyst supports International Women's Day" class="img-fluid mx-auto d-block" /></a>
+                <img src="./icons/vietteldgd.png" alt="ViettelDGD supports DGD International Women's Day" class="img-fluid mx-auto d-block" />
             </div>
         </div>
 
@@ -603,7 +582,7 @@
             <div class="container">
                 <div class="row" style="min-height:100px;">
                     <div class="col-12 text-center">
-                        <h1 style="padding-top:0px; font-size:45px; color:white;">Join the DGD Community <a href="/Register" class="btn btn-warning btn-lg"><i class='fas fa-arrow-right text-white' aria-hidden='true'></i></a></h1>
+                        <h1 style="padding-top:0px; font-size:45px; color:white;">Join the DGD Community <a href="https://www.facebook.com/ViettelDGD/" class="btn btn-warning btn-lg"><i class='fas fa-arrow-right text-white' aria-hidden='true'></i></a></h1>
                         
                     </div>
                 </div>
@@ -624,8 +603,6 @@
                     <div class="col-sm-2 col-6 ml-5">
                         <p> 
                             <a href="/">Home</a><br />
-                            <a href="/Contact">Contact</a><br />
-                            <a href="/Search/">Site search</a><br />
                         </p>
                     </div>
                 </div> 

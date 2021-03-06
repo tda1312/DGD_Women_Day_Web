@@ -19,13 +19,70 @@ body {
 @media screen and (min-width: 992px) {
     .navbar .nav-item {
         padding: .5rem .5rem;
-        margin: 0 .25rem;
+        margin: 0.25rem;
     }
 }
 
 @media screen and (max-width: 992px) {
     .navbar .nav-item .nav-link {
         font-size: 16px;
+    }
+    .h3-resize {
+        font-size: 1.5rem;
+    }
+}
+
+.resize {
+    width: 350px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+    .resize {
+        width: 300px;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .resize {
+        width: 200px;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .resize {
+        width: 170px;
+        height: 170px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .resize {
+        /* padding-left: 45px; */
+        margin: auto;
+        width: 450px;
+        height: 450px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .resize-text {
+        text-align: center;
     }
 }
 
@@ -45,7 +102,7 @@ body {
 
 .row {padding-bottom:20px;}
 
-.home { padding-left: 0px; padding-right:0px;}
+.home { padding-left: 0px; padding-right:0px; font-family: 'Pacifico', cursive;font-size: 30px;}
 .h1-pic {color:white; font-size: 60px; line-height:1;} 
 .h3-pic {color:white; font-size:30px; margin:3px auto; text-transform:uppercase;}
 .p-pic {color:white; font-size:20px;}
@@ -155,7 +212,7 @@ p.home-red, p.home-red a {
 }
 
 .home-image {
-    background: url('dgdwomen.jpeg') no-repeat center center;
+    background: url('../images/dgdwomen.jpeg') no-repeat center center;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -164,7 +221,7 @@ p.home-red, p.home-red a {
 
 @media screen and (max-width: 767.98px) {
     .home-image {
-        background: url('dgdwomen.jpeg') no-repeat center center;
+        background: url('../images/AoDai.jpeg') no-repeat center center;
     }
 }
 
@@ -175,28 +232,36 @@ p.home-red, p.home-red a {
     h1.home-title {position: relative;top:250%;}
 }
 
-@media (min-width: 992px) and (max-width:1149.98px) {
+@media (min-width: 1000px) and (max-width:1149.99) {
+    body {padding-top: 60px; padding-bottom: 0px;}
+    .home-image .trans {min-height: 677px;}
+    h1.home-title {position: relative;top:250%;}
+}
+
+@media (min-width: 992px) and (max-width:1099.99px) {
     body {padding-top: 60px;padding-bottom: 0px;}
     .home-image .trans {min-height: 677px;}
-    h1.home-title {position: relative;top: 200%;}
+    h1.home-title {position: relative;top:180%;}
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-    body {padding-top: 70px;padding-bottom: 0px;}
-    .home-image .trans {min-height: 677px;}
-    h1.home-title {position: relative;top:190%;}
-}
-
-@media screen and (max-width: 767.98px) {
+@media (min-width: 800px) and (max-width: 991.98px) {
     body {padding-top: 50px;padding-bottom: 0px;}
-    .home-image .trans {min-height: 650px;}
-    h1.home-title {color: #fff !important; font-size:2rem;}
-    }
-
-
-@media (max-width: 991.98px) {
-    
+    .home-image .trans {min-height: 677px;}
+    h1.home-title {position: relative;top:30%;font-size:2rem}
 }
+
+@media (min-width: 670px) and (max-width: 799.98px) {
+    body {padding-top: 50px;padding-bottom: 0px;}
+    .home-image .trans {min-height: 677px;}
+    h1.home-title {position: relative;top:10%;font-size:1.5rem}
+}
+
+@media screen and (max-width: 669.98px) {
+    body {padding-top: 70px;padding-bottom: 0px;}
+    .home-image .trans {min-height: 650px;}
+    h1.home-title {position: relative;top:500%; font-size:1.5rem;}
+}
+
 
 .card {
     width: 100%;
