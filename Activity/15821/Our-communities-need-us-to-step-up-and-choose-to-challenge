@@ -1,0 +1,365 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="application-name" content="International Women&#39;s Day" /><meta name="theme-color" content="#47296e" /><meta property="fb:app_id" content="585587671594560" /><meta property="og:site_name" content="International Women&#39;s Day" /><meta property="og:type" content="website" /><meta property="og:locale" content="en_US" />
+    <!--Page meta start--><!--Page meta end-->
+
+<meta name="twitter:card" content="website" /><meta name="twitter:site" content="@womensday" /><meta name="twitter:creator" content="@womensday" /><title>
+	
+    IWD: Our communities need us to step up and choose to challenge
+
+</title><link rel="icon" href="/favicon.ico" /><link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /><link href="/css/bootstrap-theme.css?21010401" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        body {padding-top: 0px;}
+        .dropdown-menu {min-width:15rem;}
+        @media screen and (max-width: 767.98px) {
+            #bannerAd {display:none; visibility:hidden; }
+            }
+    </style>
+    <script src="https://kit.fontawesome.com/3b9f286cf2.js"></script>
+    
+    <script src="https://use.fontawesome.com/670eba4cce.js"></script>
+    
+    <style type="text/css">
+        h6 {font-size:small;color:#808080;line-height:1.1; font-weight:500;margin-top:10px;margin-bottom:20px;font-style:italic; }
+    </style>
+
+</head>
+<body>
+    <form method="post" action="./Our-communities-need-us-to-step-up-and-choose-to-challenge" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTE3MDk5NTkxOA9kFgJmD2QWAmYPZBYEAgEPZBYCAg0PZBYCZg9kFgICAQ9kFgJmDxYCHgRUZXh0BT9JV0Q6IE91ciBjb21tdW5pdGllcyBuZWVkIHVzIHRvIHN0ZXAgdXAgYW5kIGNob29zZSB0byBjaGFsbGVuZ2VkAgMPZBYEAgEPFgIeB1Zpc2libGVoZAIHD2QWBAIBD2QWBgIDDxYCHwAFmQE8ZGl2IGNsYXNzPSdleWVlbSc+PGltZyBzcmM9Jy8vczMtdXMtd2VzdC0yLmFtYXpvbmF3cy5jb20vaW50ZXJuYXRpb25hbHdvbWVuc2RheS91cGxvYWQvMTIzNDUxNTgyMS5qcGcnIGFsdD0nJyBjbGFzcz0naW1nLWZsdWlkIG14LWF1dG8gZC1ibG9jaycgLz48L2Rpdj5kAgUPFgIfAAWUATxoMiBjbGFzcz0nbXQtNSBtYi00Jz5PdXIgY29tbXVuaXRpZXMgbmVlZCB1cyB0byBzdGVwIHVwIGFuZCBjaG9vc2UgdG8gY2hhbGxlbmdlPC9oMj48cCBjbGFzcz0nbXQtNCc+PGI+S2VpdGggTmVhbG9uLCBDRU8sIEJhemFhcnZvaWNlPC9iPjwvcD48aHIgLz5kAgkPFgIfAAW1EzxwPkZvciB5ZWFycywgPGEgaHJlZj0iL0V4dGVybmFsLmFzcHg/dT1odHRwczovL3d3dy5iYXphYXJ2b2ljZS5jb20vIiB0YXJnZXQ9Il9ibGFuayI+PHN0cm9uZz5CYXphYXJ2b2ljZTwvc3Ryb25nPjwvYT4gaGFzIGNoYW1waW9uZWQgZWZmb3J0cyB0byBlbGV2YXRlIGNvbW11bml0aWVzIHdobyBoYXZlIGJlZW4gbWFyZ2luYWxpemVkLCB0byBjaGFsbGVuZ2UgZ2VuZGVyIGJpYXMgYW5kIGluZXF1YWxpdHksIGFuZCB0byBhZHZvY2F0ZSBmb3IgdGhlIHdvbWVuIHdobyBoYXZlIGhlbHBlZCBncm93IEJhemFhcnZvaWNlIGludG8gdGhlIG9yZ2FuaXphdGlvbiBpdCBpcyB0b2RheS4gV2UgY291bGQgbm90IGJlIG1vcmUgcHJvdWQgdG8gcGFydG5lciB3aXRoIEludGVybmF0aW9uYWwgV29tZW4mIzM5O3MgRGF5IGFzIHdlIGNvbnRpbnVlIHRvIDxhIGhyZWY9Ii90aGVtZSI+PHN0cm9uZz4jQ2hvb3NlVG9DaGFsbGVuZ2U8L3N0cm9uZz48L2E+IGFuZCBjb250aW51ZSB0aGUgaW1wb3J0YW50IHdvcmsgYW5kIGZvcmdlIHRvd2FyZHMgYSBtb3JlIGluY2x1c2l2ZSB3b3JsZC48L3A+DQoNCjxwPk91ciBEaXZlcnNpdHksIEVxdWl0eSAmYW1wOyBJbmNsdXNpb24mbmJzcDsoREVJKSBUYXNrIEZvcmNlIGluY2x1ZGVzIDEyIG1lbWJlcnMgYWNyb3NzIDYgb2ZmaWNlcyB3aXRoIHRoZSBjb2xsZWN0aXZlIGdvYWwgdG8gYWNoaWV2ZSBhIG1vcmUgZGl2ZXJzZSwgZXF1aXRhYmxlLCBhbmQgaW5jbHVzaXZlIHdvcmtwbGFjZSBmb3IgYWxsIGVtcGxveWVlcy4gUGF5IEVxdWl0eSBSZXZpZXdzLCBERUkgU3BlYWtlciBTZXJpZXMsIGFuZCBmb2N1c2VkIHRyYWluaW5nIG9uIEltcGxpY2l0IEJpYXMgJmFtcDsgQWxseXNoaXAgdHJhaW5pbmcgaXMganVzdCB0aGUgc3RhcnQgLSB0aGVyZSBhcmUgYSBudW1iZXIgb2YgaW5pdGlhdGl2ZXMgaW4gcHJvZ3Jlc3MgdGhhdCB3aWxsIGdldCB1cyBjbG9zZXIgdG8gb3VyIGdvYWxzLiZuYnNwOzwvcD4NCg0KPHA+V2l0aGluIG91ciB0ZWFtLCA0OSUgb2Ygb3VyIGdsb2JhbCB0ZWFtIGlkZW50aWZ5IGFzIHdvbWVuLiA1MyUgb2Ygb3VyIGdsb2JhbCBtYW5hZ2VycyBpZGVudGlmeSBhcyB3b21lbiwgYW5kIDQ4JSBhdCB0aGUgZGlyZWN0b3IgbGV2ZWwgKG9yIGFib3ZlKSBpZGVudGlmeSBhcyB3b21lbi4gQXMgYSBjb21wYW55IHRoYXQgd29ya3Mgd2l0aCBjdXR0aW5nIGVkZ2UgdGVjaG5vbG9neSwgd2UgYmVsaWV2ZSBpdCBpcyBvdXIgcmVzcG9uc2liaWxpdHkgdG8gdXBsaWZ0IHdvbWVuIGluIHRlY2ggZmllbGRzIGFuZCBjcmVhdGUgb3Bwb3J0dW5pdGllcyB0byBlbmNvdXJhZ2UgYW5kIGVtcG93ZXIgZnV0dXJlIGZlbWFsZSBsZWFkZXJzIC0gd2hpY2ggaXMgd2h5IHdlIHN1cHBvcnQgV29tZW4gaW4gU1RFTSwgY2hvb3NpbmcgNSBmZW1hbGUgc3R1ZGVudHMgZWFjaCB5ZWFyJm5ic3A7IHB1cnN1aW5nIGEgZGVncmVlIGluIGEgdGVjaG5pY2FsIGZpZWxkIG9mIHN0dWR5IHRvIHJlY2VpdmUgYW4gYWNhZGVtaWMgc2Nob2xhcnNoaXAuPC9wPg0KDQo8cD5XZSBiZWxpZXZlIHdlJnJzcXVvO3JlIFN0cm9uZ2VyIFRvZ2V0aGVyIGFzIGEgY3J1Y2lhbCB2YWx1ZSBhdCBCYXphYXJ2b2ljZSwgd2UgYnJpbmcgb3VyIHdob2xlIHNlbHZlcyB0byB0aGUgbWlzc2lvbiBhbmQgZmluZCB2YWx1ZXMgaW4gZGl2ZXJzZSBwZXJzcGVjdGl2ZXMuJm5ic3A7V2UgY2hhbXBpb24gd2hhdCYjMzk7cyBiZXN0IGZvciBCYXphYXJ2b2ljZSBiZWZvcmUgaW5kaXZpZHVhbHMgb3IgdGVhbXMuIEFzIGEgc3Ryb25nZXIgY29tcGFueSB3ZSBidWlsZCBhIHN0cm9uZ2VyIGNvbW11bml0eS4gT3VyIGNvbW11bml0aWVzIG5lZWQgdXMgdG8gc3RlcCB1cCBhbmQgPGEgaHJlZj0iL3RoZW1lIj48c3Ryb25nPmNob29zZSB0byBjaGFsbGVuZ2U8L3N0cm9uZz48L2E+IC0gd2UmcnNxdW87dmUgY29tbWl0dGVkIHRvIGFkdm9jYWN5ICZhbXA7IGVtcG93ZXJtZW50IGZvciBhbGwgdGhhdCB1bHRpbWF0ZWx5IHJlc3VsdHMgaW4gc3VzdGFpbmFibGUgY2hhbmdlIHRoYXQgd2lsbCBjZWxlYnJhdGUgdGhlIGFjaGlldmVtZW50cyBvZiBvdXIgaW5jcmVkaWJsZSBjb21tdW5pdHkgb2Ygd29tZW4uPC9wPg0KDQo8cD4mbmJzcDs8L3A+DQoNCjxkaXYgY2xhc3M9InRleHQtY2VudGVyIj48YSBjbGFzcz0iYnRuIGJ0bi1zdWNjZXNzIGJ0bi1sZyIgaHJlZj0iL0luZmx1ZW5jZXJzIj5GdXJ0aGVyIGxlYWRlcnMgd2hvICNDaG9vc2VUb0NoYWxsZW5nZTwvYT48L2Rpdj4NCg0KPHA+Jm5ic3A7PC9wPg0KDQo8cD4mbmJzcDs8L3A+DQoNCjxwPjxkaXYgY2xhc3M9ImVtYmVkLXJlc3BvbnNpdmUgZW1iZWQtcmVzcG9uc2l2ZS0xNmJ5OSI+PGlmcmFtZSBjbGFzcz0iZW1iZWQtcmVzcG9uc2l2ZS1pdGVtIiBmcmFtZWJvcmRlcj0iMCIgaGVpZ2h0PSIzMTUiIHNyYz0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvLXFJUFdzNHpLX28iIHdpZHRoPSI1NjAiPjwvaWZyYW1lPjwvZGl2PjwvcD5kAgMPZBYGAgEPFgIfAAXbAjxkaXYgY2xhc3M9J3Jvdyc+PGRpdiBjbGFzcz0nY29sLTEyIHRleHQtY2VudGVyJz48YSBocmVmPScvRXh0ZXJuYWwuYXNweD9iPTEzNiZ1PWh0dHBzOi8vd3d3LmhjbHRlY2guY29tL0hDTGZvckVxdWFsaXR5JyB0YXJnZXQ9J19ibGFuayc+PGltZyBzcmM9J2h0dHBzOi8vaW50ZXJuYXRpb25hbHdvbWVuc2RheS5zMy11cy13ZXN0LTIuYW1hem9uYXdzLmNvbS9iYW5uZXJzL0hDTF92ZXJ0aWNsZS1iYW5uZXItd2Vic2l0ZS1yZWRfMTUuZ2lmJyBhbHQ9J0lXRCBTdXBwb3J0ZXInIHRpdGxlPSdJV0QgU3VwcG9ydGVyJyBjbGFzcz0naW1nLWZsdWlkIG14LWF1dG8gZC1ibG9jaycgLz48L2E+PC9kaXY+PC9kaXY+ZAICDxYCHwAFjwI8ZGl2IGNsYXNzPSdyb3cnPjxkaXYgY2xhc3M9J2NvbC0xMiB0ZXh0LWNlbnRlcic+PGEgaHJlZj0nL1BhcnRuZXJzJz48aW1nIHNyYz0naHR0cHM6Ly9pbnRlcm5hdGlvbmFsd29tZW5zZGF5LnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tL2ltYWdlcy9JV0QyMDIxcGFydG5lcnMtSENMLU1lZHRyb25pYy5wbmcnIGFsdD0nSVdEIFBhcnRuZXJzJyB0aXRsZT0nSVdEIFBhcnRuZXJzJyBjbGFzcz0naW1nLWZsdWlkIG14LWF1dG8gZC1ibG9jaycgLz48L2E+PC9kaXY+PC9kaXY+ZAIFD2QWBAIBDxYCHwAFswI8ZGl2IGNsYXNzPSdyb3cgZC1ub25lIGQtc20tYmxvY2snPjxkaXYgY2xhc3M9J2NvbC0xMiB0ZXh0LWNlbnRlcic+PGEgY2xhc3M9J3R3aXR0ZXItdGltZWxpbmUnIGhyZWY9J2h0dHBzOi8vdHdpdHRlci5jb20vd29tZW5zZGF5JyBkYXRhLWNocm9tZT0nbm9mb290ZXIgdHJhbnNwYXJlbnQnIGhlaWdodD0nODAwJyB3aWR0aD0nMzAwJz5Ud2VldHMgYnkgQHdvbWVuc2RheTwvYT48c2NyaXB0IGFzeW5jIHNyYz0nLy9wbGF0Zm9ybS50d2l0dGVyLmNvbS93aWRnZXRzLmpzJyBjaGFyc2V0PSd1dGYtOCc+PC9zY3JpcHQ+PC9kaXY+PC9kaXY+ZAIDDxYCHwAFtgI8ZGl2IGNsYXNzPSdyb3cnPjxkaXYgY2xhc3M9J2NvbC0xMiB0ZXh0LWNlbnRlcic+PGEgaHJlZj0nL1ByaW1lRW1wbG95ZXJzZm9yV29tZW4nPjxpbWcgc3JjPSdodHRwczovL2ludGVybmF0aW9uYWx3b21lbnNkYXkuczMtdXMtd2VzdC0yLmFtYXpvbmF3cy5jb20vYmFubmVycy9Xb21lbi1Kb2JzLUNhcmVlcnMtSVdELVdoZXJlV29tZW5Xb3JrLnBuZycgYWx0PSdXaGVyZSBXb21lbiBXb3JrJyB0aXRsZT0nV2hlcmUgV29tZW4gV29yaycgY2xhc3M9J2ltZy1mbHVpZCBteC1hdXRvIGQtYmxvY2sgcm91bmRlZCcgLz48L2E+PC9kaXY+PC9kaXY+ZGTJ+vM+Ki4TlHppvXtyE8oEBGSUwPh8h+GOs29YhfI1VQ==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D0BF1A5E" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAANKKI+zL3CAvWAxPJG+yuCI5lhBw9nTFY5IgY8hoHpML97hsyZezABECUOORXn/0wxeRHVnRZ+OEvp41HRuN2QyWkCFgN8+jz/S9fEWfmzTrA==" />
+        <!--ZOOMSTOP-->
+        
+        <div class="container-fluid text-uppercase">
+            <nav id="nav_bar" class="navbar navbar-expand-xl bg-white navbar-light">
+                
+                  <a class="navbar-brand" href="/">
+                    <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/InternationalWomensDaylogo.png" alt="International Women's Day" class="d-none d-lg-block d-xl-block" />
+                    <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/InternationalWomensDay-logoIWD.png" alt="International Women's Day" class="d-block d-lg-none g-xl-none" />
+                  </a>
+                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    MENU <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="navbar-collapse collapse" id="navbarNav">
+            
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item"><a class="nav-link" href="/Theme">2021 Theme</a></li>
+
+                        
+
+                        <li class="nav-item"><a class="nav-link" href="/About">ABOUT</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GET INVOLVED <span class="caret"></span></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="/Events">EVENTS</a>
+                                <a class="dropdown-item" href="/Resources">RESOURCES</a>
+                                <a class="dropdown-item" href="/Videos">VIDEOS</a>
+                                <a class="dropdown-item" href="/Influencers">INFLUENCERS</a>
+                                <a class="dropdown-item" href="/Speakers">SPEAKERS</a>
+                                <a class="dropdown-item" href="/Suppliers">SUPPLIERS</a>
+                                <a class="dropdown-item" href="/Gallery">GALLERY</a>
+                                <a class="dropdown-item" href="/IWD2021">COLLABORATE</a>
+                                <a class="dropdown-item" href="/PrimeEmployersforWomen">EMPLOYERS</a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MISSIONS <span class="caret"></span></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="/Mission/Creative">Women Creatives</a>
+                                <a class="dropdown-item" href="/Mission/Tech">Women and Technology</a>
+                                <a class="dropdown-item" href="/Mission/Sport">Women and Sport</a>
+                                <a class="dropdown-item" href="/Mission/Health">Women's Health</a>
+                                <a class="dropdown-item" href="/Mission/Work">Women at Work</a>
+                                <a class="dropdown-item" href="/Mission/Empowerment">Women's Empowerment</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="/Partners">Partners</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="/Fundraising">Donate</a></li>
+                    
+                        
+                            <li class="nav-item"><a class="nav-link" href="/Login">Login</a></li>
+                        
+                        
+                    </ul>
+            
+            
+                  </div><!--/.nav-collapse -->
+                </nav>
+            </div>
+        
+        <!--ZOOMRESTART-->
+        
+    <div class="container main-container">
+        <div class="row">
+            <div class="col-sm-8">
+                
+
+    
+
+    <div class='eyeem'><img src='//s3-us-west-2.amazonaws.com/internationalwomensday/upload/1234515821.jpg' alt='' class='img-fluid mx-auto d-block' /></div>
+
+    <h2 class='mt-5 mb-4'>Our communities need us to step up and choose to challenge</h2><p class='mt-4'><b>Keith Nealon, CEO, Bazaarvoice</b></p><hr />
+
+    
+
+    <p>For years, <a href="/External.aspx?u=https://www.bazaarvoice.com/" target="_blank"><strong>Bazaarvoice</strong></a> has championed efforts to elevate communities who have been marginalized, to challenge gender bias and inequality, and to advocate for the women who have helped grow Bazaarvoice into the organization it is today. We could not be more proud to partner with International Women&#39;s Day as we continue to <a href="/theme"><strong>#ChooseToChallenge</strong></a> and continue the important work and forge towards a more inclusive world.</p>
+
+<p>Our Diversity, Equity &amp; Inclusion&nbsp;(DEI) Task Force includes 12 members across 6 offices with the collective goal to achieve a more diverse, equitable, and inclusive workplace for all employees. Pay Equity Reviews, DEI Speaker Series, and focused training on Implicit Bias &amp; Allyship training is just the start - there are a number of initiatives in progress that will get us closer to our goals.&nbsp;</p>
+
+<p>Within our team, 49% of our global team identify as women. 53% of our global managers identify as women, and 48% at the director level (or above) identify as women. As a company that works with cutting edge technology, we believe it is our responsibility to uplift women in tech fields and create opportunities to encourage and empower future female leaders - which is why we support Women in STEM, choosing 5 female students each year&nbsp; pursuing a degree in a technical field of study to receive an academic scholarship.</p>
+
+<p>We believe we&rsquo;re Stronger Together as a crucial value at Bazaarvoice, we bring our whole selves to the mission and find values in diverse perspectives.&nbsp;We champion what&#39;s best for Bazaarvoice before individuals or teams. As a stronger company we build a stronger community. Our communities need us to step up and <a href="/theme"><strong>choose to challenge</strong></a> - we&rsquo;ve committed to advocacy &amp; empowerment for all that ultimately results in sustainable change that will celebrate the achievements of our incredible community of women.</p>
+
+<p>&nbsp;</p>
+
+<div class="text-center"><a class="btn btn-success btn-lg" href="/Influencers">Further leaders who #ChooseToChallenge</a></div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" frameborder="0" height="315" src="https://www.youtube.com/embed/-qIPWs4zK_o" width="560"></iframe></div></p>
+
+    
+
+    
+
+    
+
+    <hr />
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+      <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title" id="myModalLabel">Report abuse or error</h3>
+                </div>
+                <div class="modal-body">
+                    
+                    <span id="mainContent_leftContent_LblMsgCap"></span>
+                    <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="ctl00$ctl00$mainContent$leftContent$message" rows="10" cols="20" id="mainContent_leftContent_message" class="form-control">
+</textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LfcP3MUAAAAAOqyn1qX7Cc8v5_IeXG-llH1_U-1"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" name="ctl00$ctl00$mainContent$leftContent$btnMsg" value="Send" id="mainContent_leftContent_btnMsg" class="btn btn-success" />
+                    <button type="button" id="btnModalClose" class="btn btn-warning" data-dismiss="modal">Close</button>
+                    <span id="PostBackMsg" style="display:none;">Sending message. Please wait.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            </div>
+            <div class="col-sm-4">
+                
+
+            
+
+    <div class='row'><div class='col-12 text-center'><a href='/External.aspx?b=136&u=https://www.hcltech.com/HCLforEquality' target='_blank'><img src='https://internationalwomensday.s3-us-west-2.amazonaws.com/banners/HCL_verticle-banner-website-red_15.gif' alt='IWD Supporter' title='IWD Supporter' class='img-fluid mx-auto d-block' /></a></div></div>
+    
+    <div class='row'><div class='col-12 text-center'><a href='/Partners'><img src='https://internationalwomensday.s3-us-west-2.amazonaws.com/images/IWD2021partners-HCL-Medtronic.png' alt='IWD Partners' title='IWD Partners' class='img-fluid mx-auto d-block' /></a></div></div>
+    
+    
+
+    
+
+    <div id="mainContent_rightContent_divExt">
+        
+        <div class='row d-none d-sm-block'><div class='col-12 text-center'><a class='twitter-timeline' href='https://twitter.com/womensday' data-chrome='nofooter transparent' height='800' width='300'>Tweets by @womensday</a><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></div></div>       
+
+        <div class='row'><div class='col-12 text-center'><a href='/PrimeEmployersforWomen'><img src='https://internationalwomensday.s3-us-west-2.amazonaws.com/banners/Women-Jobs-Careers-IWD-WhereWomenWork.png' alt='Where Women Work' title='Where Women Work' class='img-fluid mx-auto d-block rounded' /></a></div></div>
+
+    </div>
+
+    <script type="text/javascript">
+        $('.eyeem').on('contextmenu', 'img', function (e) {
+            return false;
+        });
+        $(document).ready(function () {
+            $('#non-responsive').removeClass('embed-responsive-item');
+            $('#non-responsive').parent().removeClass('embed-responsive-16by9 embed-responsive');
+        });
+       
+        $('#myModal').on('shown.bs.modal', function (e) {
+            $('#mainContent_leftContent_message').focus();
+        });
+        $('#mainContent_leftContent_btnMsg').click(function () {
+            $('#mainContent_leftContent_btnMsg').hide();
+            $('#btnModalClose').hide();
+            $('#PostBackMsg').show();
+        });
+        
+
+        function reload() {
+            $('#myModal').modal()
+        }
+        
+    </script>
+
+
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="container-fluid text-center bg-full">
+            <div class="container">
+                <div class="row" style="min-height:100px;">
+                    <div class="col-12 text-center">
+                        <h1 style="padding-top:0px; font-size:45px; color:white;">Join the IWD Community <a href="/Register" class="btn btn-warning btn-lg"><i class='fas fa-arrow-right text-white' aria-hidden='true'></i></a></h1>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--ZOOMSTOP-->
+        <div class="footer">
+            <div class="container">
+                <div class="row justify-content-sm-center" style="margin-top:20px;">
+                    <div class="col-sm-1 col-2"><a href="https://twitter.com/womensday" target="_blank">
+                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/twitter-iwd.png" alt="IWD Twitter" /></a></div>
+
+                    <div class="col-sm-1 col-2"><a href="https://www.facebook.com/InternationalWomensDay" target="_blank">
+                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/facebook-iwd.png" alt="IWD Facebook" /></a></div>
+                    
+                    <div class="col-sm-1 col-2"><a href="http://www.instagram.com/internationalwomensday_global/" target="_blank">
+                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/instagram-iwd.png" alt="IWD Instagram" /></a></div>
+
+                    <div class="col-sm-1 col-2"><a href="https://www.linkedin.com/company/18193291/" target="_blank">
+                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/linkedin-iwd.png" alt="IWD LinkedIn" /></a></div>
+
+                    <div class="col-sm-1 col-2"><a href="https://www.linkedin.com/groups/1406777/" target="_blank">
+                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/LinkedInGroup.png" alt="IWD LinkedIn Group" /></a></div>
+                    
+                    <div class="col-sm-1 col-2"><a href="https://www.youtube.com/channel/UCO0slFdmiod2KmJztaQQV4w" target="_blank">
+                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/youtube-iwd.png" alt="IWD YouTube" /></a></div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-5 col-12">
+                        <p><b>International Women's Day</b> (March 8) is a global day celebrating the social, economic, cultural, and political achievements of women. The 
+                            day also marks a call to action for accelerating women's equality.</p>
+                        <p>IWD has occurred for well over a century, with the first IWD gathering in 1911 supported by over a million people. 
+                            Today, IWD belongs to all groups collectively everywhere. IWD is not country, group or organization specific.</p>
+                        <p><b>#IWD2021 <a href="/Theme">#ChooseToChallenge</a></b></p>
+                    </div>
+                    
+                    <div class="clearfix visible-xs-block"></div>
+                    <div class="col-sm-2 col-sm-offset-1 col-6">
+                        <p><a href="/About">About IWD</a><br />
+                            <a href="/Theme">IWD Theme</a><br />
+                            <a href="/EventList">IWD Events</a><br />
+                            <a href="/Resources">IWD Resources</a><br />
+                            <a href="/IWDMission">IWD Missions</a><br />
+                            <a href="/Influencers">IWD Influencers</a><br />
+                            <a href="/Fundraising">IWD Fundraising</a><br />
+                            <a href="/PrimeEmployersforWomen">Prime Employers</a><br />
+                        </p>
+                    </div>
+                    <div class="col-sm-2 col-6">
+                        <p><a href="/IWD2021">IWD Opportunities</a><br />
+                            <br/>
+                            <a href="/">Home</a><br />
+                            <a href="/Contact">Contact</a><br />
+                            <a href="/Search/">Site search</a><br />
+                            <a href="/Terms">Terms</a><br />
+                            <a href="/Privacy">Privacy</a><br />
+                            <a href="/Cookies">Cookies</a><br />
+                        </p>
+                    </div>
+                    <div class="visible-xs clearfix"></div>
+                    <div class="col-sm-2 col-6">
+                        <p><b>​2021 relationships:</b><br />
+                            <a href="/HCL">HCL</a><br />
+                            <a href="/Medtronic">Medtronic</a><br />
+                            <a href="/Partners">IWD Supporters</a><br />
+                            <br />
+                            <b>Charities of Choice:</b><br />
+                            <a href="/WAGGGS">WAGGGS</a><br />
+                            <a href="/Catalyst">Catalyst</a><br />
+                            
+                        </p>
+                    </div>
+                </div> 
+                            
+            </div>
+        </div>
+        <!--ZOOMRESTART-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7226163-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        
+<script type = "text/javascript">
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            console.log($(window).scrollTop());
+            if ($(window).scrollTop() > 300) {
+                $('#nav_bar').addClass('fixed-top');
+            }
+            if ($(window).scrollTop() < 301) {
+                $('#nav_bar').removeClass('fixed-top');
+            }
+        });
+        // breakpoint and up  
+        $(window).resize(function () {
+            if ($(window).width() >= 980) {
+                $(".navbar .dropdown-toggle").hover(function () {
+                    $(this).parent().toggleClass("show");
+                    $(this).parent().find(".dropdown-menu").toggleClass("show");
+                });
+                $(".navbar .dropdown-menu").mouseleave(function () {
+                    $(this).removeClass("show");
+                });
+            }
+        });
+    });
+</script>
+    </form>
+</body>
+</html>
