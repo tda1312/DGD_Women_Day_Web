@@ -15,46 +15,58 @@ import sys
 import os 
 
 import re
+import pandas as pd
+
+INDEX_PAGE = 'front_end/index.html'
+UPLOAD_FOLDER = 'uploaded_images/'
+
+leaderboard = pd.DataFrame(columns=['name', 'image_url', 'score'])
 
 class T4EBeauty(RequestHandler):
-
-    def __init__(self):
-        # call super contructor
-        self.RequestHandler.__init__()
-
-        # define learderboad
-        self.learderboad = pd.DataFrame(columns=['name', 'image_url', 'score'])
-
-        # def init model
 
     def get_score(self, mat):
         return np.random.randint(0, 10)
 
     def get(self):
-        self.render("public/index.html", image_src='', data={})
+        try:
+            self.render(INDEX_PAGE, image_src='', data={})
+        except Exception as ex:
+            print(ex)
+            self.write("An error occurs")
 
     def post(self, *args, **kwargs):
+        global leaderboard
+        
         if len(self.request.files) == 0:
-            self.render('public/index.html', image_src='', data={})
+            self.render(INDEX_PAGE, image_src='', data={})
             return
+
         try:
             file_body = self.request.files['image'][0]['body']
-            name = self.request.json['data']
+            # name = self.request.arguments['name'][0].decode()
+            name = 'fake'
                 
             mat = imread(io.BytesIO(file_body))
             mat = cv2.cvtColor(mat, cv2.COLOR_RGB2BGR)   # numpy array input
             
             # save image for later use
-            image_path = f'uploaded_images/{name}.jpg'
+            os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+            image_path = os.path.join(UPLOAD_FOLDER, f'{name}.jpg')
 
             cv2.imwrite(image_path, mat)
             # ============ USE MODEL ================
             # step 1: calculate the score
-            score = self.get_score(mat)
+            try:
+                score = self.get_score(mat)
+            except:
+                score = np.random.randint(0, 10)
 
-            # step 2: append image path and score to leaderboad
+            # step 2: append image path and score to leaderboard
+            leaderboard = leaderboard.append(pd.DataFrame({'name':[name], 'image_url':[image_path], 'score':[score]}))
 
-            # step 3: sort leaderboad by score
+            print(leaderboard)
+            # step 3: sort leaderboard by score
+            leaderboard = leaderboard.sort_values('score', ascending=False)
 
             # step 4: re-render HTML
             
@@ -62,14 +74,14 @@ class T4EBeauty(RequestHandler):
             
             
 
-            self.render('public/index.html', image_src=image_path, data={})
+            self.render(INDEX_PAGE, image_src=image_path, data={})
         except Exception as ex:
             print('Exception', ex)
-            self.render('public/index.html', image_src='', data={})
+            self.render(INDEX_PAGE, image_src='', data={})
       
 def make_app():
     routes = [(r'/', T4EBeauty),
-              (r'/(?:public)/(.*)', tornado.web.StaticFileHandler, {'path': './public'})]
+              (r'/(?:front_end)/(.*)', tornado.web.StaticFileHandler, {'path': './front_end'})]
     return Application(routes)
 
 
