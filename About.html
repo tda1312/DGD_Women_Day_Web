@@ -60,11 +60,9 @@
         }
         
         .frame {
-            width: 300px;
-            height: 300px;
-            background-position: center;
+            width: 500px;
+            height: 500px;
             background-size: cover;
-            background-repeat: no-repeat;
         }
         
         body {padding-top: 0px;}
@@ -83,12 +81,17 @@
 
 </head>
 <body>
+    <form method="post" action="/manofbeauty" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTE3MDk5NTkxOA9kFgJmD2QWAmYPZBYEAgEPZBYEAgkPZBYCAgEPZBYCAgEPFgIeBFRleHQFxgo8bWV0YSBuYW1lPSJkZXNjcmlwdGlvbiIgY29udGVudD0iTGVhcm4gYWJvdXQgSW50ZXJuYXRpb25hbCBXb21lbidzIERheSAyMDIxIC0gSVdEIGhpc3RvcnksIGNhbXBhaWduIHRoZW1lLCBtaXNzaW9ucywgY2hhcml0YWJsZSBmdW5kcmFpc2luZywgc3VwcG9ydGluZyBwYXJ0bmVycyBhbmQgbW9yZSEgIiAvPg0KPG1ldGEgbmFtZT0ia2V5d29yZHMiIGNvbnRlbnQ9ImFib3V0LCBJbnRlcm5hdGlvbmFsIFdvbWVuJ3MgRGF5LCB3aGF0LCBoaXN0b3J5LCBJV0QsIHRoZW1lLCBmdW5kcmFpc2luZywgSVdEMjAyMSwgQ2hvb3NlIHRvIENoYWxsZW5nZSwgI0Nob29zZVRvQ2hhbGxlbmdlLCBkb25hdGUsIGNoYXJpdHksIG5vbnByb2ZpdCwgZm91bmRhdGlvbiwgZnVuZGluZywgZG9uYXRpb25zLCBwaGlsYW50aHJvcGljLCBjb3Jwb3JhdGUsIHBhcnRuZXIsIHN1cHBvcnRlciAiLz4NCjxtZXRhIHByb3BlcnR5PSJvZzp1cmwiIGNvbnRlbnQ9Imh0dHBzOi8vd3d3LmludGVybmF0aW9uYWx3b21lbnNkYXkuY29tL0Fib3V0IiAvPg0KPG1ldGEgcHJvcGVydHk9Im9nOnRpdGxlIiBjb250ZW50PSJBYm91dCBJbnRlcm5hdGlvbmFsIFdvbWVuJ3MgRGF5IiAvPg0KPG1ldGEgcHJvcGVydHk9Im9nOmRlc2NyaXB0aW9uIiBjb250ZW50PSJMZWFybiBhYm91dCBJbnRlcm5hdGlvbmFsIFdvbWVuJ3MgRGF5IDIwMjEgLSBJV0QgaGlzdG9yeSwgY2FtcGFpZ24gdGhlbWUsIG1pc3Npb25zLCBjaGFyaXRhYmxlIGZ1bmRyYWlzaW5nLCBzdXBwb3J0aW5nIHBhcnRuZXJzIGFuZCBtb3JlISAiIC8+DQo8bWV0YSBuYW1lPSJ0d2l0dGVyOnRpdGxlIiBjb250ZW50PSJBYm91dCBJbnRlcm5hdGlvbmFsIFdvbWVuJ3MgRGF5IiAvPg0KPG1ldGEgbmFtZT0idHdpdHRlcjpkZXNjcmlwdGlvbiIgY29udGVudD0iTGVhcm4gYWJvdXQgSW50ZXJuYXRpb25hbCBXb21lbidzIERheSAyMDIxIC0gSVdEIGhpc3RvcnksIGNhbXBhaWduIHRoZW1lLCBtaXNzaW9ucywgY2hhcml0YWJsZSBmdW5kcmFpc2luZywgc3VwcG9ydGluZyBwYXJ0bmVycyBhbmQgbW9yZSEgIiAvPg0KPG1ldGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250ZW50PSJodHRwczovL3MzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tL2ludGVybmF0aW9uYWx3b21lbnNkYXkvdXBsb2FkLzEyMzQ1MTU1ODktNzAzODkucG5nIiAvPg0KPG1ldGEgbmFtZT0idHdpdHRlcjppbWFnZSIgY29udGVudD0iaHR0cHM6Ly9zMy11cy13ZXN0LTIuYW1hem9uYXdzLmNvbS9pbnRlcm5hdGlvbmFsd29tZW5zZGF5L3VwbG9hZC8xMjM0NTE1NTg5LTcwMzg5LnBuZyIgLz4NCjxtZXRhIHByb3BlcnR5PSJvZzppbWFnZTp0eXBlIiBjb250ZW50PSJpbWFnZS9wbmciIC8+DQpkAg0PZBYCZg9kFgICAQ9kFgJmDxYCHwAFJElXRDogQWJvdXQgSW50ZXJuYXRpb25hbCBXb21lbidzIERheWQCAw9kFgQCAQ8WAh4HVmlzaWJsZWhkAgcPZBYEAgEPZBYIAgMPFgIfAAWfATxkaXYgY2xhc3M9J2V5ZWVtJz48aW1nIHNyYz0nLy9zMy11cy13ZXN0LTIuYW1hem9uYXdzLmNvbS9pbnRlcm5hdGlvbmFsd29tZW5zZGF5L3VwbG9hZC8xMjM0NTE1NTg5LTkyMTc1LmpwZycgYWx0PScnIGNsYXNzPSdpbWctZmx1aWQgbXgtYXV0byBkLWJsb2NrJyAvPjwvZGl2PmQCBQ8WAh8ABTo8aDIgY2xhc3M9J210LTUgbWItNCc+QWJvdXQgSW50ZXJuYXRpb25hbCBXb21lbidzIERheTwvaDI+ZAIJDxYCHwAFkyg8cD5JbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheSBpcyBhIGdsb2JhbCBkYXkgY2VsZWJyYXRpbmcgdGhlIHNvY2lhbCwgZWNvbm9taWMsIGN1bHR1cmFsIGFuZCBwb2xpdGljYWwgYWNoaWV2ZW1lbnRzIG9mIHdvbWVuLiBUaGUgZGF5IGFsc28gbWFya3MgYSBjYWxsIHRvIGFjdGlvbiBmb3IgYWNjZWxlcmF0aW5nIGdlbmRlciBwYXJpdHkuIFNpZ25pZmljYW50IGFjdGl2aXR5IGlzIHdpdG5lc3NlZCB3b3JsZHdpZGUgYXMgZ3JvdXBzIGNvbWUgdG9nZXRoZXIgdG8gY2VsZWJyYXRlIHdvbWVuJiMzOTtzIGFjaGlldmVtZW50cyBvciByYWxseSBmb3Igd29tZW4mIzM5O3MgZXF1YWxpdHkuJm5ic3A7PC9wPg0KDQo8cD5NYXJrZWQgYW5udWFsbHkgb24gPHN0cm9uZz5NYXJjaCA4dGg8L3N0cm9uZz4sJm5ic3A7SW50ZXJuYXRpb25hbCBXb21lbiYjMzk7cyBEYXkgKElXRCkgaXMgb25lIG9mIHRoZSBtb3N0IGltcG9ydGFudCBkYXlzIG9mIHRoZSB5ZWFyIHRvOjwvcD4NCg0KPHVsPg0KCTxsaT5jZWxlYnJhdGUgd29tZW4mIzM5O3MgYWNoaWV2ZW1lbnRzPC9saT4NCgk8bGk+cmFpc2UgYXdhcmVuZXNzIGFib3V0IHdvbWVuJiMzOTtzIGVxdWFsaXR5PC9saT4NCgk8bGk+bG9iYnkgZm9yIGFjY2VsZXJhdGVkIGdlbmRlciBwYXJpdHk8L2xpPg0KCTxsaT5mdW5kcmFpc2UgZm9yIDxhIGhyZWY9Ii9GdW5kcmFpc2luZyI+PHN0cm9uZz5mZW1hbGUtZm9jdXNlZCBjaGFyaXRpZXM8L3N0cm9uZz48L2E+PGJyIC8+DQoJJm5ic3A7PC9saT4NCjwvdWw+DQoNCjxociAvPg0KPGgzPldoYXQmIzM5O3MgdGhlIHRoZW1lIGZvciBJbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheT88L2gzPg0KDQo8cD5UaGUgY2FtcGFpZ24gdGhlbWUgZm9yIEludGVybmF0aW9uYWwgV29tZW4mIzM5O3MgRGF5IDIwMjEgaXMgJiMzOTs8c3Ryb25nPjxhIGhyZWY9Ii8yMDIxVGhlbWUiPkNob29zZSBUbyBDaGFsbGVuZ2U8L2E+JiMzOTs8L3N0cm9uZz4uJm5ic3A7QSBjaGFsbGVuZ2VkIHdvcmxkIGlzIGFuIGFsZXJ0IHdvcmxkLiZuYnNwO0FuZCBmcm9tIGNoYWxsZW5nZSBjb21lcyBjaGFuZ2UuIFNvIGxldCYjMzk7cyBhbGwgI0Nob29zZVRvQ2hhbGxlbmdlLjxiciAvPg0KJm5ic3A7PC9wPg0KDQo8aHIgLz4NCjxoMz5XaGF0JiMzOTtzIHRoZSBoaXN0b3J5IG9mIEludGVybmF0aW9uYWwgV29tZW4mIzM5O3MgRGF5PzwvaDM+DQoNCjxwPkludGVybmF0aW9uYWwgV29tZW4mIzM5O3MgRGF5Jm5ic3A7aGFzIG9jY3VycmVkIGZvciB3ZWxsIG92ZXIgYSBjZW50dXJ5Jm5ic3A7d2l0aCB0aGUgZmlyc3QgZ2F0aGVyaW5nIGhlbGQgaW4gMTkxMS4mbmJzcDtMZWFybiBtb3JlIGFib3V0IHRoZSBkYXkmIzM5O3MgPGEgaHJlZj0iL0FjdGl2aXR5LzE1NTg2L1RoZS1oaXN0b3J5LW9mLUlXRCI+PHN0cm9uZz50aW1lbGluZTwvc3Ryb25nPjwvYT4uPGJyIC8+DQombmJzcDs8L3A+DQoNCjxociAvPg0KPGgzPldoYXQgY29sb3JzIHN5bWJvbGl6ZSBJbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheT88L2gzPg0KDQo8cD5QdXJwbGUsIGdyZWVuIGFuZCB3aGl0ZSBhcmUgdGhlIGNvbG9ycyBvZiBJbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheS4gUHVycGxlIHNpZ25pZmllcyBqdXN0aWNlIGFuZCBkaWduaXR5LiZuYnNwO0dyZWVuIHN5bWJvbGl6ZXMgaG9wZS4gV2hpdGUgcmVwcmVzZW50cyBwdXJpdHksIGFsYmVpdCBhIGNvbnRyb3ZlcnNpYWwgY29uY2VwdC4mbmJzcDtUaGUgY29sb3JzJm5ic3A7b3JpZ2luYXRlZCBmcm9tIHRoZSBXb21lbiYjMzk7cyBTb2NpYWwgYW5kIFBvbGl0aWNhbCBVbmlvbiAoV1NQVSkgaW4gdGhlIFVLIGluIDE5MDguPGJyIC8+DQombmJzcDs8L3A+DQoNCjxociAvPg0KPGgzPldobyBjYW4gc3VwcG9ydCBJbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheT88L2gzPg0KDQo8cD5JbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheSBpcyBub3QgY291bnRyeSwgZ3JvdXAsIG5vciBvcmdhbml6YXRpb24gc3BlY2lmaWMuIE5vIG9uZSBnb3Zlcm5tZW50LCBOR08sIGNoYXJpdHksIGNvcnBvcmF0aW9uLCBhY2FkZW1pYyBpbnN0aXR1dGlvbiwgd29tZW4mIzM5O3MgbmV0d29yaywgb3IgbWVkaWEgaHViIGlzIHNvbGVseSByZXNwb25zaWJsZSBmb3IgSW50ZXJuYXRpb25hbCBXb21lbiYjMzk7cyBEYXkuJm5ic3A7VGhlIGRheSBiZWxvbmdzIHRvIGFsbCBncm91cHMgY29sbGVjdGl2ZWx5IGV2ZXJ5d2hlcmUuJm5ic3A7R2xvcmlhIFN0ZWluZW0sIHdvcmxkLXJlbm93bmVkIGZlbWluaXN0LCBqb3VybmFsaXN0IGFuZCBhY3RpdmlzdCA8YSBocmVmPSIvRXh0ZXJuYWwuYXNweD91PWh0dHBzOi8vd3d3LnNlYXR0bGV0aW1lcy5jb20vb3Bpbmlvbi9oZXJlcnNxdW9zLXRvLXRoZS1tZW1vcnktb2YtZ2xvcmlhLXN0ZWluZW0tYW5kLXRoZS1vdGhlci13b21lbi13aG8tc3RydWdnbGVkLWZvci1lcXVhbGl0eS8iIHRhcmdldD0iX2JsYW5rIj48c3Ryb25nPm9uY2UgZXhwbGFpbmVkPC9zdHJvbmc+PC9hPiAmcXVvdDtUaGUgc3Rvcnkgb2Ygd29tZW4mIzM5O3Mgc3RydWdnbGUgZm9yIGVxdWFsaXR5IGJlbG9uZ3MgdG8gbm8gc2luZ2xlIGZlbWluaXN0LCBub3IgdG8gYW55IG9uZSBvcmdhbml6YXRpb24sIGJ1dCB0byB0aGUgY29sbGVjdGl2ZSBlZmZvcnRzIG9mIGFsbCB3aG8gY2FyZSBhYm91dCBodW1hbiByaWdodHMuJnF1b3Q7Jm5ic3A7Jm5ic3A7U28gbWFrZSBJbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheSB5b3VyIGRheSBhbmQgZG8gd2hhdCB5b3UgY2FuIHRvIHRydWx5IG1ha2UgYSBwb3NpdGl2ZSBkaWZmZXJlbmNlIGZvciB3b21lbi48YnIgLz4NCiZuYnNwOzwvcD4NCg0KPGhyIC8+DQo8aDM+V2hhdCYjMzk7cyBkb2VzIHRoZSBJV0Qgd2Vic2l0ZSBhaW0gdG8gYWNoaWV2ZT88L2gzPg0KDQo8dWw+DQo8L3VsPg0KDQo8cD5UaGUgcHVycG9zZSBvZiB0aGUgSW50ZXJuYXRpb25hbCBXb21lbiYjMzk7cyBEYXkgd2Vic2l0ZSBpcyB0byBzdXBwb3J0IHRoZSBzdXBwb3J0ZXJzLCZuYnNwO2FuZCBpbiBkb2luZyBzbyBpdCBwcm92aWRlcyBhIHBsYXRmb3JtIHRvIGhlbHAmbmJzcDtmb3JnZSBwb3NpdGl2ZSBjaGFuZ2UgZm9yIHdvbWVuLiZuYnNwOzwvcD4NCg0KPHA+PGltZyBjbGFzcz0iaW1nLWZsdWlkIG14LWF1dG8gZC1ibG9jayIgYWx0PSJXaG8gb3ducyBJbnRlcm5hdGlvbmFsIFdvbWVuJ3MgRGF5IiBzcmM9Imh0dHBzOi8vaW50ZXJuYXRpb25hbHdvbWVuc2RheS5zMy11cy13ZXN0LTIuYW1hem9uYXdzLmNvbS9pbWFnZXMvSW50ZXJuYXRpb25hbFdvbWVuc0RheS1vd25zLWl0LnBuZyIgc3R5bGU9ImJvcmRlci1zdHlsZTpzb2xpZDsgYm9yZGVyLXdpZHRoOjBweCIgLz48L3A+DQoNCjxwPldoZXRoZXIgaG9zdGluZyBhbiBldmVudCwgcnVubmluZyBhIGNhbXBhaWduLCBsYXVuY2hpbmcgYW4gaW5pdGlhdGl2ZSwgcmVwb3J0aW5nIG9uIGFjaGlldmVtZW50LCBkb25hdGluZyB0byBhIDxhIGhyZWY9Ii9GdW5kcmFpc2luZyI+PHN0cm9uZz5mZW1hbGUtZm9jdXNlZCBjaGFyaXR5PC9zdHJvbmc+PC9hPiwgb3IgbW9yZSAtIHRoZXJlIGFyZSBtYW55IHdheXMgZ3JvdXBzIGFuZCBpbmRpdmlkdWFscyBjYW4gbWFyayBJbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheS48L3A+DQoNCjxwPlRocmVlIGNlbnRyYWwgYmVsaWVmcyB1bmRlcnBpbiBhbmQgZ3VpZGUgdGhlIHB1cnBvc2UgYW5kIHByb3Zpc2lvbnMgb2YgdGhlIEludGVybmF0aW9uYWwgV29tZW4mIzM5O3MgRGF5IHdlYnNpdGU6PC9wPg0KDQo8dWw+DQoJPGxpPmlkZW50aWZ5aW5nLCBjZWxlYnJhdGluZyBhbmQgaW5jcmVhc2luZyB2aXNpYmlsaXR5IG9mIHdvbWVuJiMzOTtzIGFjaGlldmVtZW50cyBjYW4gaGVscCBmb3JnZSBlcXVhbGl0eTwvbGk+DQoJPGxpPnN0cmF0ZWdpYyBjb2xsYWJvcmF0aW9ucyBiYXNlZCBvbiBhIGZvdW5kYXRpb24gb2Ygc2hhcmVkIHB1cnBvc2UsIHRydXN0IGFuZCBhcHByZWNpYXRpb24gY2FuIGltcGFjdCBwb3NpdGl2ZSBjaGFuZ2UgZm9yIHdvbWVuPC9saT4NCgk8bGk+d29ybGR3aWRlIGF3YXJlbmVzcyByYWlzaW5nIHZpYSBtZWFuaW5nZnVsIG5hcnJhdGl2ZXMsIHJlc291cmNlcyBhbmQgYWN0aXZpdHkgY2FuIGhlbHAgY29tYmF0IGdlbmRlciBiaWFzIGFuZCBkaXNjcmltaW5hdGlvbiB0byBhY2NlbGVyYXRlIGdlbmRlciBwYXJpdHk8L2xpPg0KPC91bD4NCg0KPHA+VG8gc3VwcG9ydCB3b3JsZHdpZGUgYWN0aXZpdHksIHRoZSBJbnRlcm5hdGlvbmFsIFdvbWVuJiMzOTtzIERheSB3ZWJzaXRlIHByb3ZpZGVzOjwvcD4NCg0KPHVsPg0KCTxsaT5mcmVlIGd1aWRhbmNlIGFuZCByZXNvdXJjZXM8L2xpPg0KCTxsaT5hIHNlYXJjaGFibGUgSVdEIGV2ZW50cyBkYXRhYmFzZTwvbGk+DQoJPGxpPmEgcGxhdGZvcm0gZm9yIGNvbGxhYm9yYXRpdmUmbmJzcDtwdXJwb3NlLWRyaXZlbiBtaXNzaW9ucyZuYnNwOzwvbGk+DQoJPGxpPmEgaHViIHNob3djYXNpbmcmbmJzcDt0aGUgd29yayZuYnNwO29mIHdvbWVuIGNyZWF0aXZlczwvbGk+DQoJPGxpPmEgc3BlYWtlcnMgcmVnaXN0ZXIgZm9yIElXRCBldmVudCBtYW5hZ2VyczwvbGk+DQoJPGxpPmEgd29tZW4tb3duZWQgYnVzaW5lc3MgSVdEIHN1cHBsaWVyIGRpcmVjdG9yeTwvbGk+DQoJPGxpPmEgZnVuZHJhaXNpbmcgY2hhbm5lbCBmb3IgZmVtYWxlLWZvY3VzZWQgY2hhcml0aWVzICgxMDAlIGRpcmVjdCB0byBjaGFyaXR5KTxiciAvPg0KCSZuYnNwOzwvbGk+DQo8L3VsPg0KDQo8aHIgLz4NCjxoMz5EbyB3ZSBzdGlsbCBuZWVkIGFuIEludGVybmF0aW9uYWwgV29tZW4mIzM5O3MgRGF5PzwvaDM+DQoNCjxwPlllcyEgVGhlcmUmIzM5O3Mgbm8gcGxhY2UgZm9yIGNvbXBsYWNlbmN5LiZuYnNwO0FjY29yZGluZyB0byB0aGUgV29ybGQgRWNvbm9taWMgRm9ydW0sIHNhZGx5IG5vbmUgb2YgdXMgd2lsbCBzZWUgZ2VuZGVyIHBhcml0eSBpbiBvdXIgbGlmZXRpbWVzLCBhbmQgbm9yIGxpa2VseSB3aWxsIG1hbnkgb2Ygb3VyIGNoaWxkcmVuLiBHZW5kZXIgcGFyaXR5IHdpbGwgbm90IGJlIGF0dGFpbmVkIGZvciBhbG1vc3QgYSBjZW50dXJ5LiZuYnNwOzwvcD4NCg0KPHA+VGhlcmUmIzM5O3MgdXJnZW50IHdvcmsgdG8gZG8gLSBhbmQgd2UgY2FuIGFsbCBwbGF5IGEgcGFydC48YnIgLz4NCiZuYnNwOzwvcD5kAg8PFgIfAAUePHA+PGI+UmVmZXJlbmNlOiAxNTU4OTwvYj48L3A+ZAIDD2QWBgIBDxYCHwAFqAM8ZGl2IGNsYXNzPSdyb3cnPjxkaXYgY2xhc3M9J2NvbC0xMiB0ZXh0LWNlbnRlcic+PGEgaHJlZj0nL0V4dGVybmFsLmFzcHg/Yj0xMzcmdT1odHRwczovL3d3dy5tZWR0cm9uaWMuY29tL3VzLWVuL2Fib3V0L2NpdGl6ZW5zaGlwL3N1cHBvcnRpbmctYS1nbG9iYWwtd29ya2ZvcmNlL2luY2x1c2lvbi1kaXZlcnNpdHkvaW50ZXJuYXRpb25hbC13b21lbnMtZGF5Lmh0bWwnIHRhcmdldD0nX2JsYW5rJz48aW1nIHNyYz0naHR0cHM6Ly9pbnRlcm5hdGlvbmFsd29tZW5zZGF5LnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tL2Jhbm5lcnMvbWVkdHJvbmljLWl3ZC1iYW5uZXIuanBnJyBhbHQ9J0lXRCBTdXBwb3J0ZXInIHRpdGxlPSdJV0QgU3VwcG9ydGVyJyBjbGFzcz0naW1nLWZsdWlkIG14LWF1dG8gZC1ibG9jaycgLz48L2E+PC9kaXY+PC9kaXY+ZAICDxYCHwAFjwI8ZGl2IGNsYXNzPSdyb3cnPjxkaXYgY2xhc3M9J2NvbC0xMiB0ZXh0LWNlbnRlcic+PGEgaHJlZj0nL1BhcnRuZXJzJz48aW1nIHNyYz0naHR0cHM6Ly9pbnRlcm5hdGlvbmFsd29tZW5zZGF5LnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tL2ltYWdlcy9JV0QyMDIxcGFydG5lcnMtSENMLU1lZHRyb25pYy5wbmcnIGFsdD0nSVdEIFBhcnRuZXJzJyB0aXRsZT0nSVdEIFBhcnRuZXJzJyBjbGFzcz0naW1nLWZsdWlkIG14LWF1dG8gZC1ibG9jaycgLz48L2E+PC9kaXY+PC9kaXY+ZAIFD2QWBAIBDxYCHwAFswI8ZGl2IGNsYXNzPSdyb3cgZC1ub25lIGQtc20tYmxvY2snPjxkaXYgY2xhc3M9J2NvbC0xMiB0ZXh0LWNlbnRlcic+PGEgY2xhc3M9J3R3aXR0ZXItdGltZWxpbmUnIGhyZWY9J2h0dHBzOi8vdHdpdHRlci5jb20vd29tZW5zZGF5JyBkYXRhLWNocm9tZT0nbm9mb290ZXIgdHJhbnNwYXJlbnQnIGhlaWdodD0nODAwJyB3aWR0aD0nMzAwJz5Ud2VldHMgYnkgQHdvbWVuc2RheTwvYT48c2NyaXB0IGFzeW5jIHNyYz0nLy9wbGF0Zm9ybS50d2l0dGVyLmNvbS93aWRnZXRzLmpzJyBjaGFyc2V0PSd1dGYtOCc+PC9zY3JpcHQ+PC9kaXY+PC9kaXY+ZAIDDxYCHwAFtgI8ZGl2IGNsYXNzPSdyb3cnPjxkaXYgY2xhc3M9J2NvbC0xMiB0ZXh0LWNlbnRlcic+PGEgaHJlZj0nL1ByaW1lRW1wbG95ZXJzZm9yV29tZW4nPjxpbWcgc3JjPSdodHRwczovL2ludGVybmF0aW9uYWx3b21lbnNkYXkuczMtdXMtd2VzdC0yLmFtYXpvbmF3cy5jb20vYmFubmVycy9Xb21lbi1Kb2JzLUNhcmVlcnMtSVdELVdoZXJlV29tZW5Xb3JrLnBuZycgYWx0PSdXaGVyZSBXb21lbiBXb3JrJyB0aXRsZT0nV2hlcmUgV29tZW4gV29yaycgY2xhc3M9J2ltZy1mbHVpZCBteC1hdXRvIGQtYmxvY2sgcm91bmRlZCcgLz48L2E+PC9kaXY+PC9kaXY+ZGT7byuy6rfmO3xRY6oG/P7/XhkIKd9Tierph3LXSpeubg==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D0BF1A5E" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAMTLvkwL1XdejagvfnM4tSQ5lhBw9nTFY5IgY8hoHpML97hsyZezABECUOORXn/0wzP44BmcdcqP+7kpVVQYd2m55h1TiB8NOoRSR5ehtiJlQ==" />
         <!--ZOOMSTOP-->
         
         <div class="container-fluid text-uppercase">
             <nav id="nav_bar" class="navbar navbar-expand-xl bg-white navbar-light">
                 
-                <a href="./index.html">
+                <a href="">
                   <h3 style="color:#46286e">DGD International Women's Day</h3>
                   <!-- <img src="./images/dgdwomenday.png" alt="International Women's Day" class="d-none d-lg-block d-xl-block" /> -->
                   <!-- <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/InternationalWomensDay-logoIWD.png" alt="International Women's Day" class="d-block d-lg-none g-xl-none" /> -->
@@ -125,14 +128,13 @@
 
     <div class='eyeem'><img src='//s3-us-west-2.amazonaws.com/internationalwomensday/upload/1234515589-92175.jpg' alt='' class='img-fluid mx-auto d-block' /></div>
 
-    <h2 class='mt-5 mb-4'>About Man Of Beauty Contest</h2>
+    <h2 class='mt-5 mb-4'>About International Women's Day</h2>
 
     
 
-    <p>Thấu hiểu nỗi niềm chị em mỗi khi ra ngoài đường làm sao cho mình xinh đẹp để ko thẹn lòng với thiên hạ, chồng con có dịp nở mày.
-        Anh em trong Ban sẽ dấn thân vào thế giới sắc đẹp 1 lần để cảm nhận được nỗi niềm đó.</p>
+    <p>International Women&#39;s Day is a global day celebrating the social, economic, cultural and political achievements of women. The day also marks a call to action for accelerating gender parity. Significant activity is witnessed worldwide as groups come together to celebrate women&#39;s achievements or rally for women&#39;s equality.&nbsp;</p>
 
-    <p>Nàng trai hoàn mĩ hoàn toàn là cuộc thi công tâm, không mang màu sắc chính trị, không mang sự phân biệt kì thị giới tính và đặc biệt trước sau cuộc thi giới tính ai như nào BTC đảm bảo sẽ được giữ nguyên như thế.</p>
+<p>Marked annually on <strong>March 8th</strong>,&nbsp;International Women&#39;s Day (IWD) is one of the most important days of the year to:</p>
 
 <ul>
 	<li>celebrate women&#39;s achievements</li>
@@ -243,43 +245,23 @@
             <div class="col-sm-4">
                 
 
+            
+
     <div id="mainContent_rightContent_divExt">
         
-        <h2 class='row col-12 text-center'>Leaderboard</h2>
-        <div class='row' style="background-color: #fee101;"><div class='ml-2'>TOP 1</div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-3" src="./images/DGD_AnhLTL.jpg" width="50" height="50"/></span></a></div></div>
+        <h2 class='row col-12 text-center'>Leaderboard</h2>       
+        <div class='row' style="background-color: #fee101;"><div>TOP 1</div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-3" src="./images/DGD_AnhLTL.jpg" width="50" height="50"/></span></a></div></div>
         <!-- <div class='row' style="background-color: #d7d7d7;"><div>TOP 2</div><div class='col-12 text-center'><img src='./images/DGD_ThuPP.jpeg' alt='Nàng Trai Suýt Hoàn Mỹ' title='Nàng Trai Suýt Hoàn Mỹ' class='img-fluid mx-auto d-block' /></a></div></div>
         <div class='row' style="background-color: #a77044;"><div>TOP 3</p><div class='col-12 text-center'><img src='./images/DGD_LyLK.jpg' alt='Where Women Work' title='Where Women Work' class='img-fluid mx-auto d-block'/></div></div> -->
         <div class='row col-12 text-center mr-3'>
-            <!-- <form enctype="multipart/form-data" method="post" action="/manofbeauty">
+            <form action="/manofbeauty", method="POST">
                 <input style="display:none;" id="upload-file" type="file">
                 <label class="btn btn-default btn-file label-btn mt-3 mr-3" for="upload-file">
                     Bạn tự tin chàng trai của mình đẹp hơn?
                 </label>
                 <div id="uploaded-img" class="frame"></div>
-                <input type="submit">
-            </form> -->
-            <form enctype="multipart/form-data" action="/manofbeauty" method="post">
-                <!--                    <input type="file" name="file1" />-->
-                <div class="container">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Upload Image</label>
-                            <div class="input-group">
-                                <span class="input-group-btn">
-                                    <span class="btn btn-default btn-file">
-                                        Browse… <input type="file" name="image"/>
-                                    </span>
-                                </span>
-                                <input type="text" class="form-control" readonly>
-                            </div>
-                            <img id='img-upload'/>
-                        </div>
-                        <button type="submit" class="btn btn-default">Upload</button>
-                    </div>
-                </div>
-
+                <input type="submit" value="Submit">
             </form>
-
                 
     </div>
 
@@ -313,11 +295,15 @@
         });
 
         
+        
+
         function reload() {
             $('#myModal').modal()
         }
         
     </script>
+
+
             </div>
         </div>
     </div>
@@ -444,6 +430,6 @@
         });
     });
 </script>
-    
+    </form>
 </body>
 </html>
