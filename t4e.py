@@ -18,7 +18,7 @@ import re
 import pandas as pd
 
 INDEX_PAGE = 'index.html'
-MANOFBEAUTY_PAGE = 'About.html'
+MANOFBEAUTY_PAGE = 'ManofBeauty.html'
 UPLOAD_FOLDER = 'uploaded_images/'
 
 leaderboard = pd.DataFrame(columns=['name', 'image_url', 'score'])
@@ -48,7 +48,7 @@ class ManOfBeauty(RequestHandler):
         global leaderboard
         
         if len(self.request.files) == 0:
-            print(self.request)
+            print(self.request.body)
             print('No image upload')
             self.render(MANOFBEAUTY_PAGE, image_src='', data={})
             return
@@ -76,10 +76,9 @@ class ManOfBeauty(RequestHandler):
             # step 2: append image path and score to leaderboard
             leaderboard = leaderboard.append(pd.DataFrame({'name':[name], 'image_url':[image_path], 'score':[score]}))
 
-            print(leaderboard)
             # step 3: sort leaderboard by score
             leaderboard = leaderboard.sort_values('score', ascending=False)
-
+            print(leaderboard)
             # step 4: re-render HTML
             
             # =======================================
