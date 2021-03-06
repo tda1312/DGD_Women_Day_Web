@@ -17,15 +17,13 @@ import os
 import re
 import pandas as pd
 
-INDEX_PAGE = 'front_end/index.html'
+INDEX_PAGE = 'index.html'
+MANOFBEAUTY_PAGE = 'About.html'
 UPLOAD_FOLDER = 'uploaded_images/'
 
 leaderboard = pd.DataFrame(columns=['name', 'image_url', 'score'])
 
-class T4EBeauty(RequestHandler):
-
-    def get_score(self, mat):
-        return np.random.randint(0, 10)
+class Home(RequestHandler):
 
     def get(self):
         try:
@@ -34,11 +32,25 @@ class T4EBeauty(RequestHandler):
             print(ex)
             self.write("An error occurs")
 
+class ManOfBeauty(RequestHandler):
+
+    def get_score(self, mat):
+        return np.random.randint(0, 10)
+
+    def get(self):
+        try:
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={})
+        except Exception as ex:
+            print(ex)
+            self.write("An error occurs")
+
     def post(self, *args, **kwargs):
         global leaderboard
         
         if len(self.request.files) == 0:
-            self.render(INDEX_PAGE, image_src='', data={})
+            print(self.request)
+            print('No image upload')
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={})
             return
 
         try:
@@ -73,15 +85,15 @@ class T4EBeauty(RequestHandler):
             # =======================================
             
             
-
-            self.render(INDEX_PAGE, image_src=image_path, data={})
+            self.render(MANOFBEAUTY_PAGE, image_src=image_path, data={})
         except Exception as ex:
             print('Exception', ex)
-            self.render(INDEX_PAGE, image_src='', data={})
-      
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={})
+
 def make_app():
-    routes = [(r'/', T4EBeauty),
-              (r'/(?:front_end)/(.*)', tornado.web.StaticFileHandler, {'path': './front_end'})]
+    routes = [(r'/', Home),
+              (r'/manofbeauty', ManOfBeauty),
+              (r'/(?:images)/(.*)', tornado.web.StaticFileHandler, {'path': './images'})]
     return Application(routes)
 
 
