@@ -161,10 +161,10 @@ h1.home-title {
     font-size: 3.5rem;
 }
 
-    h1.home-title small {
-        color: #fff !important;
-        font-size: 70% !important;
-    }
+h1.home-title small {
+    color: #fff !important;
+    font-size: 70% !important;
+}
 
 h2.home-title {
     color: #fff !important;
@@ -226,16 +226,16 @@ p.home-red, p.home-red a {
 }
 
 .row.home-jumb { margin-right:0px;}
-@media (min-width: 1150px) {
+@media (min-width: 1340px) {
     body {padding-top: 60px; padding-bottom: 0px;}
     .home-image .trans {min-height: 677px;}
     h1.home-title {position: relative;top:250%;}
 }
 
-@media (min-width: 1000px) and (max-width:1149.99) {
+@media (min-width: 1000px) and (max-width:1339.99px) {
     body {padding-top: 60px; padding-bottom: 0px;}
     .home-image .trans {min-height: 677px;}
-    h1.home-title {position: relative;top:250%;}
+    h1.home-title {position: relative;top:180%;}
 }
 
 @media (min-width: 992px) and (max-width:1099.99px) {
@@ -259,7 +259,12 @@ p.home-red, p.home-red a {
 @media screen and (max-width: 669.98px) {
     body {padding-top: 70px;padding-bottom: 0px;}
     .home-image .trans {min-height: 650px;}
-    h1.home-title {position: relative;top:500%; font-size:1.5rem;}
+    h1.home-title {
+        position: relative;
+        top:500%;
+        font-size:1.5rem; 
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
 }
 
 
@@ -271,6 +276,9 @@ p.home-red, p.home-red a {
 }
 
 .thumbimg {
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
     overflow: hidden;
     display: inline-block;
     border-radius: 4px;

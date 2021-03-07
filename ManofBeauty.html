@@ -21,7 +21,8 @@
     IWD: About International Women's Day
 
 </title><link rel="icon" href="/favicon.ico" /><link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <!-- Bootstrap Core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -38,22 +39,44 @@
     <![endif]-->
 
     <style type="text/css">
+        .form-submit {
+            font-family: 'Lobster', cursive;
+            text-align: center;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 0px;
+            border-radius: 8px;
+            width: fit-content;
+            height: fit-content;
+            max-width: 25vw;
+            box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+                        -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+            background-color: rgb(248, 223, 246);
+        }
+
+        @media screen and (max-width: 800px){
+            .form-submit{
+                max-width: 100%;
+            }
+        }
+
         .label-btn {
             font-family: Arial, Helvetica, sans-serif;
             display: inline-block;
             line-height: 2.2em;
             padding: 0 0.62em;
-            border: 1px solid rgb(73, 7, 128);
+            border: 0.5px solid #EBECED;
             border-radius: 0.25em;
-            background-image: linear-gradient( to bottom, rgb(248, 239, 239), rgb(235, 228, 222) );
+            background-color:  #f3d4d4;
             box-shadow: inset 0 0 0.1em #fff, 0.2em 0.2em 0.2em rgba(59, 3, 122, 0.3);
             font-family: arial, sans-serif;
             font-size: 0.8em;
         }
 
         .label-btn:hover {
-            border-color: #350292;
-            background-image: linear-gradient( to bottom, rgb(228, 208, 250), #c6b5f3 );
+            background-color: rgb(253, 166, 166);
         }
 
         .label-btn:focus {
@@ -65,17 +88,16 @@
             display: inline-block;
             line-height: 2.2em;
             padding: 0 0.62em;
-            border: 1px solid rgb(219, 84, 84);
+            border: 0.5px solid #EBECED;
             border-radius: 0.25em;
-            background-image: linear-gradient( to bottom, rgb(248, 239, 239), rgb(235, 228, 222) );
+            background-color: #f3d4d4;
             box-shadow: inset 0 0 0.1em #fff, 0.2em 0.2em 0.2em rgba(59, 3, 122, 0.3);
             font-family: arial, sans-serif;
             font-size: 0.8em;
         }
 
         .label-btn-submit:hover {
-            border-color: rgb(219, 84, 84);
-            background-image: linear-gradient( to bottom, rgb(252, 237, 237), #f3d4d4 );
+            background-color: rgb(253, 166, 166);
         }
 
         .label-btn-submit:focus {
@@ -83,8 +105,11 @@
         }
         
         .frame {
-            width: 300px;
-            height: 300px;
+            background-color: #cec1f3;
+            width: fit-content;
+            height: fit-content;
+            /* max-width: 300px;
+            max-height: 300px; */
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -158,7 +183,7 @@
 
     
 
-    <div class='eyeem'><img src='//s3-us-west-2.amazonaws.com/internationalwomensday/upload/1234515589-92175.jpg' alt='' class='img-fluid mx-auto d-block' /></div>
+    <div class='eyeem'><img src='http://missosology.org/wp-content/uploads/2019/08/Cover.png' alt='' class='img-fluid mx-auto d-block' /></div>
 
     <h2 class='mt-5 mb-4'>About Man Of Beauty Contest</h2>
 
@@ -170,79 +195,13 @@
     <p>Nàng trai hoàn mĩ hoàn toàn là cuộc thi công tâm, không mang màu sắc chính trị, không mang sự phân biệt kì thị giới tính và đặc biệt trước sau cuộc thi giới tính ai như nào BTC đảm bảo sẽ được giữ nguyên như thế.</p>
 
 <ul>
-	<li>celebrate women&#39;s achievements</li>
-	<li>raise awareness about women&#39;s equality</li>
-	<li>lobby for accelerated gender parity</li>
-	<li>fundraise for <a href="/Fundraising"><strong>female-focused charities</strong></a><br />
+	<li>Công tâm</li>
+	<li>Không chính trị</li>
+	<li>Không kì thị giới tính</li>
+	<li><strong>Bảo hành giới tính sau thi</strong><br />
 	&nbsp;</li>
 </ul>
 
-<hr />
-<h3>What&#39;s the theme for International Women&#39;s Day?</h3>
-
-<p>The campaign theme for International Women&#39;s Day 2021 is &#39;<strong><a href="/2021Theme">Choose To Challenge</a>&#39;</strong>.&nbsp;A challenged world is an alert world.&nbsp;And from challenge comes change. So let&#39;s all #ChooseToChallenge.<br />
-&nbsp;</p>
-
-<hr />
-<h3>What&#39;s the history of International Women&#39;s Day?</h3>
-
-<p>International Women&#39;s Day&nbsp;has occurred for well over a century&nbsp;with the first gathering held in 1911.&nbsp;Learn more about the day&#39;s <a href="/Activity/15586/The-history-of-IWD"><strong>timeline</strong></a>.<br />
-&nbsp;</p>
-
-<hr />
-<h3>What colors symbolize International Women&#39;s Day?</h3>
-
-<p>Purple, green and white are the colors of International Women&#39;s Day. Purple signifies justice and dignity.&nbsp;Green symbolizes hope. White represents purity, albeit a controversial concept.&nbsp;The colors&nbsp;originated from the Women&#39;s Social and Political Union (WSPU) in the UK in 1908.<br />
-&nbsp;</p>
-
-<hr />
-<h3>Who can support International Women&#39;s Day?</h3>
-
-<p>International Women&#39;s Day is not country, group, nor organization specific. No one government, NGO, charity, corporation, academic institution, women&#39;s network, or media hub is solely responsible for International Women&#39;s Day.&nbsp;The day belongs to all groups collectively everywhere.&nbsp;Gloria Steinem, world-renowned feminist, journalist and activist <a href="/External.aspx?u=https://www.seattletimes.com/opinion/herersquos-to-the-memory-of-gloria-steinem-and-the-other-women-who-struggled-for-equality/" target="_blank"><strong>once explained</strong></a> &quot;The story of women&#39;s struggle for equality belongs to no single feminist, nor to any one organization, but to the collective efforts of all who care about human rights.&quot;&nbsp;&nbsp;So make International Women&#39;s Day your day and do what you can to truly make a positive difference for women.<br />
-&nbsp;</p>
-
-<hr />
-<h3>What&#39;s does the IWD website aim to achieve?</h3>
-
-<ul>
-</ul>
-
-<p>The purpose of the International Women&#39;s Day website is to support the supporters,&nbsp;and in doing so it provides a platform to help&nbsp;forge positive change for women.&nbsp;</p>
-
-<p><img class="img-fluid mx-auto d-block" alt="Who owns International Women's Day" src="https://internationalwomensday.s3-us-west-2.amazonaws.com/images/InternationalWomensDay-owns-it.png" style="border-style:solid; border-width:0px" /></p>
-
-<p>Whether hosting an event, running a campaign, launching an initiative, reporting on achievement, donating to a <a href="/Fundraising"><strong>female-focused charity</strong></a>, or more - there are many ways groups and individuals can mark International Women&#39;s Day.</p>
-
-<p>Three central beliefs underpin and guide the purpose and provisions of the International Women&#39;s Day website:</p>
-
-<ul>
-	<li>identifying, celebrating and increasing visibility of women&#39;s achievements can help forge equality</li>
-	<li>strategic collaborations based on a foundation of shared purpose, trust and appreciation can impact positive change for women</li>
-	<li>worldwide awareness raising via meaningful narratives, resources and activity can help combat gender bias and discrimination to accelerate gender parity</li>
-</ul>
-
-<p>To support worldwide activity, the International Women&#39;s Day website provides:</p>
-
-<ul>
-	<li>free guidance and resources</li>
-	<li>a searchable IWD events database</li>
-	<li>a platform for collaborative&nbsp;purpose-driven missions&nbsp;</li>
-	<li>a hub showcasing&nbsp;the work&nbsp;of women creatives</li>
-	<li>a speakers register for IWD event managers</li>
-	<li>a women-owned business IWD supplier directory</li>
-	<li>a fundraising channel for female-focused charities (100% direct to charity)<br />
-	&nbsp;</li>
-</ul>
-
-<hr />
-<h3>Do we still need an International Women&#39;s Day?</h3>
-
-<p>Yes! There&#39;s no place for complacency.&nbsp;According to the World Economic Forum, sadly none of us will see gender parity in our lifetimes, and nor likely will many of our children. Gender parity will not be attained for almost a century.&nbsp;</p>
-
-<p>There&#39;s urgent work to do - and we can all play a part.<br />
-&nbsp;</p>
-
-    <hr />
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
       <div class="modal-dialog">
@@ -281,74 +240,80 @@
     <div id="mainContent_rightContent_divExt">
         
         <h2 class='row col-12 text-center'>Leaderboard</h2>
-        <!-- <div class='row my-2 element-2' style="background-color: #fee101; border-radius: 15px;">
-            <div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP 1</div>
-            <div class='col-12'>
-                <span class="input-group-addon">
-                    <img class="rounded-circle mt-3 mb-1" src="./images/DGD_AnhLTL.jpg" width="70" height="70"/>
+        <!-- <div class='row my-2 element-2 mx-1' style="background-color: #fee101; border-radius: 15px;">
+            <div style="font-family: arial, sans-serif;" class='ml-3 mt-1'><strong>TOP 1</strong></div>
+            <div class='col-12' style="display:flex">
+                <span class="input-group-addon" style="display: flex; align-items: center;">
+                    <img class="rounded-circle ml-3" src="./images/DGD_AnhLTL.jpg" width="70" height="70"/>
                 </span>
-                <span class="ml-2">YOLO</span>
-                <span class="ml-2">YAY</span>
+                <div style="display:grid; align-items: center;padding: 20px 0px; margin-left: 10px;">
+                    <span class="ml-2" style="height:fit-content; display:flex; align-items: center; font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem">YOLO</span>
+                    <span class="ml-2" style="height:fit-content; display:flex; align-items: center; font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem">YAY</span>
+                </div>
             </div>
         </div>
-        <div class='row my-2 element-2' style="background-color: #d7d7d7; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP 2</div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_LienNT21.jpg" width="70" height="70"/></span></div></div>
-        <div class='row my-2 element-2' style="background-color: #a77044; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP 3</div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_ThoaNT2.jpg" width="70" height="70"/></span></div></div>
-        <div class='row my-2 element-2' style="background-color: #c4ade2; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP 4</div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_TienNM25.jpg" width="70" height="70"/></span></div></div>
-        <div class='row my-2 element-2' style="background-color: #8bceb4; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP 5</div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_ThuPP.jpeg" width="70" height="70"/></span></div></div> -->
+        <div class='row my-2 element-2 mx-1' style="background-color: #d7d7d7; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'><strong>TOP 2</strong></div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_LienNT21.jpg" width="70" height="70"/></span></div></div>
+        <div class='row my-2 element-2 mx-1' style="background-color: #a77044; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'><strong>TOP 3</strong></div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_ThoaNT2.jpg" width="70" height="70"/></span></div></div>
+        <div class='row my-2 element-2 mx-1' style="background-color: #c4ade2; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'><strong>TOP 4</strong></div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_TienNM25.jpg" width="70" height="70"/></span></div></div>
+        <div class='row my-2 element-2 mx-1' style="background-color: #8bceb4; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'><strong>TOP 5</strong></div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_ThuPP.jpeg" width="70" height="70"/></span></div></div> -->
         <div>
             {% for i, row in data['leaderboard'].iterrows() %}
-                <div class='row my-2 element-2' style="background-color: #fee101; border-radius: 15px;">
-                    <div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP 1</div>
-                    <div class='col-12'>
-                        <span class="input-group-addon">
-                            <img class="rounded-circle mt-3 mb-1" src="{{row['image']}}" width="70" height="70"/>
+                <div class='row my-2 element-2 mx-1' style="background-color: #fee101; border-radius: 15px;">
+                    <div style="font-family: arial, sans-serif;" class='ml-3 mt-1'><strong>TOP 1</strong></div>
+                    <div class='col-12' style="display:flex">
+                        <span class="input-group-addon" style="display: flex; align-items: center;">
+                            <img class="rounded-circle ml-3" src="{{row['image']}}" width="70" height="70"/>
                         </span>
-                        <span class="ml-2">{{row['name']}}</span>
-                        <span class="ml-2">{{row['score']}}</span>
+                        <div style="display:grid; align-items: center;padding: 20px 0px; margin-left: 10px;">
+                            <span class="ml-2" style="height:fit-content; display:flex; align-items: center; font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem">{{row['name']}}</span>
+                            <span class="ml-2" style="height:fit-content; display:flex; align-items: center; font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem">{{row['score']}}</span>
+                        </div>
                     </div>
                 </div>
             {% end %}
         </div>
 
 
-        <div class='row col-12 text-center mr-3'>
-            <!-- <form enctype="multipart/form-data" method="post" action="/manofbeauty">
-                <input style="display:none;" id="upload-file" type="file">
-                <label class="btn btn-default btn-file label-btn mt-3 mr-3" for="upload-file">
-                    Bạn tự tin chàng trai của mình đẹp hơn?
-                </label>
-                <div id="uploaded-img" class="frame"></div>
-                <input type="submit">
-            </form> -->
-            <form enctype="multipart/form-data" action="/manofbeauty" method="post">
-                <!--                    <input type="file" name="file1" />-->
-                <div class="container">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input type="text" class="form-control" name="name">
-                                <span class="input-group-btn">
-                                    <span class="btn btn-default btn-file">
-                                        <input id="upload-file" type="file" name="image" style="display:none;"/>
-                                        <label for="upload-file" class="btn btn-default btn-file label-btn mx-1">Trai mình xịn hơn</label>
-                                    </span>
-                                </span>
-                            </div>
-                            <div id="img-upload" class="frame"></div>
-                            <!-- <img id='img-upload'/> -->
+        <!-- <form enctype="multipart/form-data" method="post" action="/manofbeauty">
+            <input style="display:none;" id="upload-file" type="file">
+            <label class="btn btn-default btn-file label-btn mt-3 mr-3" for="upload-file">
+                Bạn tự tin chàng trai của mình đẹp hơn?
+            </label>
+            <div id="uploaded-img" class="frame"></div>
+            <input type="submit">
+        </form> -->
+        <form class="form-submit mt-5" enctype="multipart/form-data" action="/manofbeauty" method="post">
+            <h4 style="font-family: inherit; font-size: 30px; color: #212529;">Bạn tự tin chàng trai của mình xịn hơn?</h4>
+            <div class="container">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div style="display: flex; width: 100%;">
+                            <h5 style="margin-left: -8px; margin-right: 10px;">Tên</h6>
+                            <input style="width:100%;" type="text" class="form-control" name="name">
                         </div>
-                        <button class="btn btn-default btn-file label-btn-submit mx-1" type="submit" class="btn btn-default">Triển nào</button>
+                        <span class="input-group-btn" style="width: 100%;">
+                            <span class="btn btn-default btn-file">
+                                <input id="upload-file" type="file" name="image" style="display:none;"/>
+                                <label for="upload-file" style="min-width: fit-content; font-family:'Times New Roman', Times, serif; cursor: pointer;" class="btn btn-default btn-file label-btn mx-1"><i>Chọn ảnh</i></label>
+                            </span>
+                        </span>
                     </div>
+                    <!-- <div id="uploaded-img" class="frame"></div> -->
+                    <img id='uploaded-img' class="frame"/>
                 </div>
-            </form>
-    </div>
+                <button style="min-width: fit-content; font-family:'Lobster', cursive" class="btn btn-default btn-file label-btn-submit mx-1 mb-2" type="submit">Submit nào</button>
+            </div>
+        </form>
 
     <script type="text/javascript">
         const frame = document.getElementById('uploaded-img');
         const file = document.getElementById('upload-file');
         const reader = new FileReader();
         reader.addEventListener("load", function () {
-        frame.style.backgroundImage = `url(${ reader.result })`;
+            // frame.style.backgroundImage = `url(${ reader.result })`;
+            frame.src = reader.result;
+            frame.style.width = `95%`;
+            frame.style.height = `300px`;
         }, false);
         file.addEventListener('change',function() {
         const image = this.files[0];
@@ -383,91 +348,37 @@
     </div>
 
     
-        <div class="container-fluid text-center bg-full">
-            <div class="container">
-                <div class="row" style="min-height:100px;">
-                    <div class="col-12 text-center">
-                        <h1 style="padding-top:0px; font-size:45px; color:white;">Join the IWD Community <a href="/Register" class="btn btn-warning btn-lg"><i class='fas fa-arrow-right text-white' aria-hidden='true'></i></a></h1>
-                        
-                    </div>
+    <div class="container-fluid text-center bg-full">
+        <div class="container">
+            <div class="row" style="min-height:100px;">
+                <div class="col-12 text-center">
+                    <h1 style="padding-top:0px; font-size:45px; color:white;">Join the DGD Community <a href="https://www.facebook.com/ViettelDGD/" class="btn btn-warning btn-lg"><i class='fas fa-arrow-right text-white' aria-hidden='true'></i></a></h1>
+                    
                 </div>
             </div>
         </div>
+    </div>
 
-        <!--ZOOMSTOP-->
-        <div class="footer">
-            <div class="container">
-                <div class="row justify-content-sm-center" style="margin-top:20px;">
-                    <div class="col-sm-1 col-2"><a href="https://twitter.com/womensday" target="_blank">
-                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/twitter-iwd.png" alt="IWD Twitter" /></a></div>
+    <!--ZOOMSTOP-->
+    <div class="footer">
+        <div class="container">
+            <div class="justify-content-sm-center" style="margin-top:20px;">
 
-                    <div class="col-sm-1 col-2"><a href="https://www.facebook.com/InternationalWomensDay" target="_blank">
-                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/facebook-iwd.png" alt="IWD Facebook" /></a></div>
-                    
-                    <div class="col-sm-1 col-2"><a href="http://www.instagram.com/internationalwomensday_global/" target="_blank">
-                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/instagram-iwd.png" alt="IWD Instagram" /></a></div>
-
-                    <div class="col-sm-1 col-2"><a href="https://www.linkedin.com/company/18193291/" target="_blank">
-                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/linkedin-iwd.png" alt="IWD LinkedIn" /></a></div>
-
-                    <div class="col-sm-1 col-2"><a href="https://www.linkedin.com/groups/1406777/" target="_blank">
-                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/LinkedInGroup.png" alt="IWD LinkedIn Group" /></a></div>
-                    
-                    <div class="col-sm-1 col-2"><a href="https://www.youtube.com/channel/UCO0slFdmiod2KmJztaQQV4w" target="_blank">
-                        <img src="https://s3-us-west-2.amazonaws.com/internationalwomensday/home/youtube-iwd.png" alt="IWD YouTube" /></a></div>
-                    
-                </div>
-                
-                <div class="row">
-                    <div class="col-sm-5 col-12">
-                        <p><b>International Women's Day</b> (March 8) is a global day celebrating the social, economic, cultural, and political achievements of women. The 
+                <div style="display:flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <div style="display:flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;" class="">
+                        <p style="text-align: center; width: 60%;"><b>International Women's Day</b> (March 8) is a global day celebrating the social, economic, cultural, and political achievements of women. The 
                             day also marks a call to action for accelerating women's equality.</p>
-                        <p>IWD has occurred for well over a century, with the first IWD gathering in 1911 supported by over a million people. 
-                            Today, IWD belongs to all groups collectively everywhere. IWD is not country, group or organization specific.</p>
-                        <p><b>#IWD2021 <a href="/Theme">#ChooseToChallenge</a></b></p>
                     </div>
                     
-                    <div class="clearfix visible-xs-block"></div>
-                    <div class="col-sm-2 col-sm-offset-1 col-6">
-                        <p><a href="/About">About IWD</a><br />
-                            <a href="/Theme">IWD Theme</a><br />
-                            <a href="/EventList">IWD Events</a><br />
-                            <a href="/Resources">IWD Resources</a><br />
-                            <a href="/IWDMission">IWD Missions</a><br />
-                            <a href="/Influencers">IWD Influencers</a><br />
-                            <a href="/Fundraising">IWD Fundraising</a><br />
-                            <a href="/PrimeEmployersforWomen">Prime Employers</a><br />
-                        </p>
-                    </div>
-                    <div class="col-sm-2 col-6">
-                        <p><a href="/IWD2021">IWD Opportunities</a><br />
-                            <br/>
+                    <div style="display:flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                        <p> 
                             <a href="/">Home</a><br />
-                            <a href="/Contact">Contact</a><br />
-                            <a href="/Search/">Site search</a><br />
-                            <a href="/Terms">Terms</a><br />
-                            <a href="/Privacy">Privacy</a><br />
-                            <a href="/Cookies">Cookies</a><br />
-                        </p>
-                    </div>
-                    <div class="visible-xs clearfix"></div>
-                    <div class="col-sm-2 col-6">
-                        <p><b>​2021 relationships:</b><br />
-                            <a href="/HCL">HCL</a><br />
-                            <a href="/Medtronic">Medtronic</a><br />
-                            <a href="/Partners">IWD Supporters</a><br />
-                            <br />
-                            <b>Charities of Choice:</b><br />
-                            <a href="/WAGGGS">WAGGGS</a><br />
-                            <a href="/Catalyst">Catalyst</a><br />
-                            
                         </p>
                     </div>
                 </div> 
-                            
-            </div>
+            </div>       
         </div>
-        <!--ZOOMRESTART-->
+    </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
