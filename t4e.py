@@ -11,6 +11,7 @@ import base64
 import io
 import numpy as np
 
+import time
 import sys
 import os 
 import glob
@@ -37,9 +38,10 @@ MANOFBEAUTY_PAGE = 'ManofBeauty.html'
 UPLOAD_FOLDER = 'uploaded_images/'
 
 leaderboard = pd.DataFrame(columns=['name', 'image_url', 'score'])
+lb_color = ['#fee101', '#d7d7d7', '#a77044', '#c4ade2', '#8bceb4']
 
 # model_paths = glob.glob('models/*.hdf5')
-model_paths = ['models/1EffNet_Beauty_16--0.7673.hdf5']
+model_paths = ['models/5EffNet_Beauty_17--0.5673.hdf5']
 models = []
 
 for f in model_paths:
@@ -54,6 +56,9 @@ for f in model_paths:
 
     final_model.load_weights(f)
     models.append(final_model)
+    
+# dummy infer
+models[0].predict(np.random.rand(1,320,320,3))
 
 class Home(RequestHandler):
 
@@ -68,6 +73,8 @@ class ManOfBeauty(RequestHandler):
 
     def get_score(self, mat):
         p_mat = cv2.resize(mat, (320, 320))
+        # make sure the image has 3 channels
+        p_mat = p_mat[:,:,:3]
         p_mat = p_mat[None,::]
         print(p_mat.shape)
         score = 0
@@ -77,7 +84,7 @@ class ManOfBeauty(RequestHandler):
 
     def get(self):
         try:
-            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard})
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard, 'lb_color':lb_color})
         except Exception as ex:
             print(ex)
             self.write("An error occurs")
@@ -88,19 +95,19 @@ class ManOfBeauty(RequestHandler):
         if len(self.request.files) == 0:
             print(self.request.body)
             print('No image upload')
-            self.render(MANOFBEAUTY_PAGE, image_src='', data={})
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard, 'lb_color':lb_color})
             return
 
         try:
             file_body = self.request.files['image'][0]['body']
-            # name = self.request.arguments['name'][0].decode()
-            name = 'fake'
+            name = self.request.arguments['name'][0].decode()
+            # name = 'fake'
                 
             mat = imread(io.BytesIO(file_body))
             
             # save image for later use
             os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-            image_path = os.path.join(UPLOAD_FOLDER, f'{name}.jpg')
+            image_path = os.path.join(UPLOAD_FOLDER, f'{time.time()}.jpg')
 
             cv2.imwrite(image_path, cv2.cvtColor(mat, cv2.COLOR_RGB2BGR))
             # ============ USE MODEL ================
@@ -119,18 +126,19 @@ class ManOfBeauty(RequestHandler):
             print(leaderboard)
 
             # step 4: re-render HTML
-            data = {'leaderboard':leaderboard}
+            data = {'leaderboard':leaderboard, 'lb_color':lb_color}
             self.render(MANOFBEAUTY_PAGE, image_src=image_path, data=data)
             # =======================================
             
         except Exception as ex:
             print('Exception', ex)
-            self.render(MANOFBEAUTY_PAGE, image_src='', data={})
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard, 'lb_color':lb_color})
 
 def make_app():
     routes = [(r'/', Home),
               (r'/manofbeauty', ManOfBeauty),
               (r'/(?:images)/(.*)', tornado.web.StaticFileHandler, {'path': './images'}),
+              (r'/(?:uploaded_images)/(.*)', tornado.web.StaticFileHandler, {'path': './uploaded_images'}),
               (r'/(?:fonts)/(.*)', tornado.web.StaticFileHandler, {'path': './fonts'}),
               (r'/(?:icons)/(.*)', tornado.web.StaticFileHandler, {'path': './icons'}),
               (r'/(?:css)/(.*)', tornado.web.StaticFileHandler, {'path': './css'})]
