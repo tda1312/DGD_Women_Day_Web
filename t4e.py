@@ -88,7 +88,7 @@ class ManOfBeauty(RequestHandler):
         if len(self.request.files) == 0:
             print(self.request.body)
             print('No image upload')
-            self.render(MANOFBEAUTY_PAGE, image_src='', data={})
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard})
             return
 
         try:
