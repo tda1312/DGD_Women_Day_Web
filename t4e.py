@@ -125,7 +125,7 @@ class ManOfBeauty(RequestHandler):
             
         except Exception as ex:
             print('Exception', ex)
-            self.render(MANOFBEAUTY_PAGE, image_src='', data={})
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard})
 
 def make_app():
     routes = [(r'/', Home),
