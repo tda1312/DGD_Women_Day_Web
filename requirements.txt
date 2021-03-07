@@ -4,3 +4,4 @@ opencv-python
 imageio
 numpy
 pandas
+tensorflow-cpu
