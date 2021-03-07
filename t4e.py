@@ -55,6 +55,9 @@ for f in model_paths:
 
     final_model.load_weights(f)
     models.append(final_model)
+    
+# dummy infer
+models[0].predict(np.random.rand(1,320,320,3))
 
 class Home(RequestHandler):
 
