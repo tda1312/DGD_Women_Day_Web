@@ -93,8 +93,8 @@ class ManOfBeauty(RequestHandler):
 
         try:
             file_body = self.request.files['image'][0]['body']
-            # name = self.request.arguments['name'][0].decode()
-            name = 'fake'
+            name = self.request.arguments['name'][0].decode()
+            # name = 'fake'
                 
             mat = imread(io.BytesIO(file_body))
             
