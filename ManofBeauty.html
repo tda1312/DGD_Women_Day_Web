@@ -298,7 +298,7 @@
         <div>
             {% for i, row in data['leaderboard'].iterrows() %}
                 <div class='row my-2 element-2' style="background-color: #fee101; border-radius: 15px;">
-                    <div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP 1</div>
+                    <div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP {{i+1}}</div>
                     <div class='col-12'>
                         <span class="input-group-addon">
                             <img class="rounded-circle mt-3 mb-1" src="{{row['image_url']}}" width="70" height="70"/>
