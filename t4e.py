@@ -38,7 +38,7 @@ MANOFBEAUTY_PAGE = 'ManofBeauty.html'
 UPLOAD_FOLDER = 'uploaded_images/'
 
 leaderboard = pd.DataFrame(columns=['name', 'image_url', 'score'])
-lb_color = ['#d7d7d7', '#a77044', '#c4ade2', '#8bceb4']
+lb_color = ['#fee101', '#d7d7d7', '#a77044', '#c4ade2', '#8bceb4']
 
 # model_paths = glob.glob('models/*.hdf5')
 model_paths = ['models/5EffNet_Beauty_17--0.5673.hdf5']
