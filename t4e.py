@@ -11,6 +11,7 @@ import base64
 import io
 import numpy as np
 
+import time
 import sys
 import os 
 import glob
@@ -68,6 +69,8 @@ class ManOfBeauty(RequestHandler):
 
     def get_score(self, mat):
         p_mat = cv2.resize(mat, (320, 320))
+        # make sure the image has 3 channels
+        p_mat = p_mat[:,:,:3]
         p_mat = p_mat[None,::]
         print(p_mat.shape)
         score = 0
@@ -100,7 +103,7 @@ class ManOfBeauty(RequestHandler):
             
             # save image for later use
             os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-            image_path = os.path.join(UPLOAD_FOLDER, f'{name}.jpg')
+            image_path = os.path.join(UPLOAD_FOLDER, f'{time.time()}.jpg')
 
             cv2.imwrite(image_path, cv2.cvtColor(mat, cv2.COLOR_RGB2BGR))
             # ============ USE MODEL ================
@@ -131,6 +134,7 @@ def make_app():
     routes = [(r'/', Home),
               (r'/manofbeauty', ManOfBeauty),
               (r'/(?:images)/(.*)', tornado.web.StaticFileHandler, {'path': './images'}),
+              (r'/(?:uploaded_images)/(.*)', tornado.web.StaticFileHandler, {'path': './uploaded_images'}),
               (r'/(?:fonts)/(.*)', tornado.web.StaticFileHandler, {'path': './fonts'}),
               (r'/(?:icons)/(.*)', tornado.web.StaticFileHandler, {'path': './icons'}),
               (r'/(?:css)/(.*)', tornado.web.StaticFileHandler, {'path': './css'})]
