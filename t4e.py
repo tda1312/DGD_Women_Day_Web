@@ -39,7 +39,7 @@ UPLOAD_FOLDER = 'uploaded_images/'
 leaderboard = pd.DataFrame(columns=['name', 'image_url', 'score'])
 
 # model_paths = glob.glob('models/*.hdf5')
-model_paths = ['models/1EffNet_Beauty_16--0.7673.hdf5']
+model_paths = ['models/5EffNet_Beauty_17--0.5673.hdf5']
 models = []
 
 for f in model_paths:
