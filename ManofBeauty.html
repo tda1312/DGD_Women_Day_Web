@@ -297,7 +297,7 @@
         <div class='row my-2 element-2' style="background-color: #8bceb4; border-radius: 15px;"><div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP 5</div><div class='col-12'><span class="input-group-addon"><img class="rounded-circle mt-3 mb-1" src="./images/DGD_ThuPP.jpeg" width="70" height="70"/></span></div></div> -->
         <div>
             {% for i, row in data['leaderboard'].iterrows() %}
-                <div class='row my-2 element-2' style="background-color: #fee101; border-radius: 15px;">
+                <div class='row my-2 element-2' style="background-color: {{data['lb_color'][i%len(data['lb_color'])]}}; border-radius: 15px;">
                     <div style="font-family: arial, sans-serif;" class='ml-3 mt-1'>TOP {{i+1}}</div>
                     <div class='col-12'>
                         <span class="input-group-addon">
