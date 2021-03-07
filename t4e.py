@@ -38,6 +38,7 @@ MANOFBEAUTY_PAGE = 'ManofBeauty.html'
 UPLOAD_FOLDER = 'uploaded_images/'
 
 leaderboard = pd.DataFrame(columns=['name', 'image_url', 'score'])
+lb_color = ['#d7d7d7', '#a77044', '#c4ade2', '#8bceb4']
 
 # model_paths = glob.glob('models/*.hdf5')
 model_paths = ['models/5EffNet_Beauty_17--0.5673.hdf5']
@@ -83,7 +84,7 @@ class ManOfBeauty(RequestHandler):
 
     def get(self):
         try:
-            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard})
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard, 'lb_color':lb_color})
         except Exception as ex:
             print(ex)
             self.write("An error occurs")
@@ -94,7 +95,7 @@ class ManOfBeauty(RequestHandler):
         if len(self.request.files) == 0:
             print(self.request.body)
             print('No image upload')
-            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard})
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard, 'lb_color':lb_color})
             return
 
         try:
@@ -125,13 +126,13 @@ class ManOfBeauty(RequestHandler):
             print(leaderboard)
 
             # step 4: re-render HTML
-            data = {'leaderboard':leaderboard}
+            data = {'leaderboard':leaderboard, 'lb_color':lb_color}
             self.render(MANOFBEAUTY_PAGE, image_src=image_path, data=data)
             # =======================================
             
         except Exception as ex:
             print('Exception', ex)
-            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard})
+            self.render(MANOFBEAUTY_PAGE, image_src='', data={'leaderboard':leaderboard, 'lb_color':lb_color})
 
 def make_app():
     routes = [(r'/', Home),
