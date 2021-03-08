@@ -125,6 +125,8 @@ class ManOfBeauty(RequestHandler):
 
             # step 3: sort leaderboard by score
             leaderboard = leaderboard.sort_values('score', ascending=False)
+            leaderboard['color'] = [lb_color[i%len(lb_color)] for i in range(len(leaderboard))]
+            leaderboard['pos'] = np.arange(1, len(leaderboard)+1)
             print(leaderboard)
 
             # step 4: re-render HTML
