@@ -155,7 +155,7 @@ if __name__ == '__main__':
     app = make_app()
     print('Start serving')
 
-    port = 80
+    port = 7777
 
     print(f'Start server with  f{port}')
     app.listen(port)
