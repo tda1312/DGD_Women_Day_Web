@@ -117,7 +117,9 @@ class ManOfBeauty(RequestHandler):
             except Exception as ex:
                 print(ex)
                 score = np.random.normal(0.3, 1)
-
+                
+            score = np.round(score,2)
+            
             # step 2: append image path and score to leaderboard
             leaderboard = leaderboard.append(pd.DataFrame({'name':[name], 'image_url':[image_path], 'score':[score]}))
 
